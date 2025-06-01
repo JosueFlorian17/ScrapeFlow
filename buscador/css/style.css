@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #f5f5f5;
+  background-color: #1e1e2f;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #1e1e2f;
+}
+
+.search-container {
+  max-width: 600px;
+  margin: 100px auto;
+  text-align: center;
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.search-container h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(75, 51, 168, 0.6);
+}
+
+.search-box {
+  width: 90%;
+  padding: 15px 20px 15px 45px;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  background-color: rgba(75, 51, 168, 0.15);
+  color: white;
+  transition: all 0.3s ease;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(75, 51, 168, 0.2);
+  background-image: url('https://www.svgrepo.com/show/7109/search.svg');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 15px center;
+}
+
+.search-box::placeholder {
+  color: #ccc;
+}
+
+.search-box:focus {
+  background-color: rgba(75, 51, 168, 0.25);
+  box-shadow: 0 0 15px rgba(75, 51, 168, 0.5);
+}
+
+.suggestions {
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  margin-top: 10px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+}
+
+.suggestion-item {
+  padding: 12px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+.suggestion-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.search-button {
+  margin-top: 25px;
+  padding: 12px 35px;
+  background-color: #4b33a8;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #3b288a;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #ccc;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  opacity: 0;
+  animation: fadeInUp 1.5s ease forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webscraping</title>
+
+  <!-- Fuente profesional -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Íconos -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Fondo de partículas -->
+  <div id="particles-js"></div>
+
+  <div class="search-container">
+    <h1>ScraperFlow</h1>
+    <p class="subtitle">Compara en segundos</p>
+
+    <input type="text" id="searchInput" class="search-box" placeholder="Busca smartphones, laptops, tablets...">
+    <div id="suggestions" class="suggestions"></div>
+    <div id="loading" class="loading">Cargando sugerencias...</div>
+    <button id="searchButton" class="search-button">
+      <i class="fas fa-search"></i> Buscar
+    </button>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS("particles-js", {
+    particles: {
+      number: {
+        value: 100
+      },
+      color: {
+        value: "#4b33a8"
+      },
+      shape: {
+        type: "circle"
+      },
+      opacity: {
+        value: 0.3
+      },
+      size: {
+        value: 3
+      },
+      line_linked: {
+        enable: true,
+        distance: 120,
+        color: "#4b33a8",
+        opacity: 0.4,
+        width: 1
+      },
+      move: {
+        enable: true,
+        speed: 1.5
+      }
+    },
+    interactivity: {
+      detect_on: "canvas",
+      events: {
+        onhover: {
+          enable: true,
+          mode: "repulse"
+        }
+      }
+    }
+  });
+  
+</script>
+
+<script>
+  document.getElementById('searchButton').addEventListener('click', function () {
+    // Redirige a index.html con la categoría "todos"
+    window.location.href = "../index.html?categoria=todos";
+  });
+</script>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>

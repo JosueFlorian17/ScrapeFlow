@@ -1,0 +1,46 @@
+[
+    {
+        "id": "web-0",
+        "titulo": "\"Teleticket.com.pe - Tu entrada a las mejores experiencias",
+        "imagen": "./img/abrigos/01.jpg",
+        "categoria": {
+            "nombre": "Web",
+            "id": "web"
+        },
+        "precio": 1234,
+        "url": "https://teleticket.com.pe/"
+    },
+    {
+        "id": "web-1",
+        "titulo": "\"Facebook - log in or sign up",
+        "imagen": "./img/abrigos/01.jpg",
+        "categoria": {
+            "nombre": "Web",
+            "id": "web"
+        },
+        "precio": 1234,
+        "url": "https://www.facebook.com/"
+    },
+    {
+        "id": "web-2",
+        "titulo": "\"Google",
+        "imagen": "./img/abrigos/01.jpg",
+        "categoria": {
+            "nombre": "Web",
+            "id": "web"
+        },
+        "precio": 1234,
+        "url": "https://www.google.com/"
+    },
+    {
+        "id": "web-3",
+        "titulo": "\"Wikipedia",
+        "imagen": "./img/abrigos/01.jpg",
+        "categoria": {
+            "nombre": "Web",
+            "id": "web"
+        },
+        "precio": 1234,
+        "url": "https://www.wikipedia.org/"
+    }
+]
