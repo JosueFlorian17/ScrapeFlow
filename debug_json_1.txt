@@ -1,0 +1,327 @@
+{
+  "success": true,
+  "results": [
+    {
+      "title": "LAPTOP HP 15-FD0029LA INTEL CORE I5-1334U 12GB RAM 512GBSSD 15.6\"",
+      "price": 2.099,
+      "image_url": "https://rimage.ripley.com.pe/home.ripley/Attachment/WOP/1/2004351827222/full_image-2004351827222.webp",
+      "product_url": "https://simple.ripley.com.pe/laptop-hp-15-fd0029la-intel-core-i5-1334u-12gb-ram-512gbssd-156-2004351827222p?ismb=true&mai=v2_x8vu8mVPPAD61RUXuPy2vsrPZjuLcUEabi266xhyYA8y57sRKT4GlAFcnPzi0rx6TknZEcSACZNVvipsGK6zsVMXpaAiuRbouk_XMowv240IY7hVbMoj5mota7LpTSBaRPhVfuWLmGHA5cvcC7ovDoE4OhlcCTi3pJI3JjLEJSU%3D_ark1977579c12d669fe12",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP HP 15-FB2002LA AMD RYZEN 5 8645HS 8GB RAM 512GB SSD 15.6\" RTX 3050",
+      "price": 3.099,
+      "image_url": "https://rimage.ripley.com.pe/home.ripley/Attachment/WOP/1/2004335737608/full_image-2004335737608.WEBP",
+      "product_url": "https://simple.ripley.com.pe/laptop-hp-15-fb2002la-amd-ryzen-5-8645hs-8gb-ram-512gb-ssd-156-rtx-3050-2004335737608p?ismb=true&mai=v2_hMx5_TlXsLLn9RZoZQjIIsrPZjuLcUEabi266xhyYA8y57sRKT4GlAFcnPzi0rx6TknZEcSACZNVvipsGK6zsVMXpaAiuRbouk_XMowv242h2MTbPSxv3XyAl69MTd0STAqwrsw_aw_Axum2XKMi7IE4OhlcCTi3pJI3JjLEJSU%3D_ark1977579c12d669fe12",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP HP 15-FD0257LA INTEL CORE I5-1334U 16GB RAM 512GBSSD 15.6\"",
+      "price": 2.049,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-hp-15-fd0257la-intel-core-i5-1334u-16gb-ram-512gbssd-156-2004356336330p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "NOTEBOOK ASUS VIVOBOOK 15 X1502VA-NJ840W INTEL CORE I5 12GB RAM 512GB SSD 15.6”",
+      "price": 2.299,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/notebook-asus-vivobook-15-x1502va-nj840w-intel-core-i5-12gb-ram-512gb-ssd-156-2004358519205p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP GAMER ASUS V16 RTX3050 V3607VJ-RP096W INTEL CORE 7-240H 16GB RAM 512GBSSD M.2 NVME PCIE 4.0 16\" WUXGA",
+      "price": 3.499,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-gamer-asus-v16-rtx3050-v3607vj-rp096w-intel-core-7-240h-16gb-ram-512gbssd-m2-nvme-pcie-40-16-wuxga-2004354889074p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO IDEAPAD SLIM 3 AMD RYZEN 7 16GB RAM 1TB SSD 15.6”",
+      "price": 2.199,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-ideapad-slim-3-amd-ryzen-7-16gb-ram-1tb-ssd-156-2004356135070p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP ACER AL15-71P-53N7 INTEL CORE I5-12450H 8GB RAM 512GB SSD 15.6\" FHD",
+      "price": 1.749,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-acer-al15-71p-53n7-intel-core-i5-12450h-8gb-ram-512gb-ssd-156-fhd-2004347464660p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP GAMER ASUS V16 RTX4050 V3607VU-RP036W INTEL CORE 7 PROCESSOR 240H 16GB RAM 512GBSSD M.2 NVME PCIE 4.0 16\" WUXGA",
+      "price": 4.099,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-gamer-asus-v16-rtx4050-v3607vu-rp036w-intel-core-7-processor-240h-16gb-ram-512gbssd-m2-nvme-pcie-40-16-wuxga-2004355164026p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP ASUS VIVOBOOK 15 X1504ZA-NJ1056W INTEL CORE I5-1235U 12GB RAM 512GB SSD M.2 NVME PCIE 3.0 SSD 15.6\" FHD",
+      "price": 1.899,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-asus-vivobook-15-x1504za-nj1056w-intel-core-i5-1235u-12gb-ram-512gb-ssd-m2-nvme-pcie-30-ssd-156-fhd-2004352726265p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO IDEAPAD SLIM 3I INTEL CORE I5-12450H 16GB RAM 512GB SSD 15.6\"",
+      "price": 2.049,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-ideapad-slim-3i-intel-core-i5-12450h-16gb-ram-512gb-ssd-156-2004326027718p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP ASUS VIVOBOOK 15 M1502YA-NJ572W AMD RYZEN 7 5825U 16GB RAM 512GBSSD M.2 NVME PCIE 3.0 15.6\" FHD",
+      "price": 1.999,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-asus-vivobook-15-m1502ya-nj572w-amd-ryzen-7-5825u-16gb-ram-512gbssd-m2-nvme-pcie-30-156-fhd-2004355163371p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP HP 15-FA0021LA INTEL CORE I5-12450H 8GB RAM 512GB SSD 15.6\" RTX 3050",
+      "price": 2.699,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-hp-15-fa0021la-intel-core-i5-12450h-8gb-ram-512gb-ssd-156-rtx-3050-2004335737592p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP ACER AL15-41P-R6Q5 AMD RYZEN 7-5700U 16GB RAM 512GB SSD 15.6\" FHD",
+      "price": 1.949,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-acer-al15-41p-r6q5-amd-ryzen-7-5700u-16gb-ram-512gb-ssd-156-fhd-2004347464677p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO IDEAPAD SLIM 3I INTEL CORE I7 24GB RAM 512GB SSD 15.3”",
+      "price": 3.299,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-ideapad-slim-3i-intel-core-i7-24gb-ram-512gb-ssd-153-2004358655712p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP HP VICTUS 15-FB2002LA AMD R5-8645HS 8GB RAM 512GB SSD RTX3050 15\" IA",
+      "price": 2.999,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-hp-victus-15-fb2002la-amd-r5-8645hs-8gb-ram-512gb-ssd-rtx3050-15-ia-pmp20000339675",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO LOQ AMD RYZEN 7 7435HS 24GB RAM 512GB SSD 15.6\"",
+      "price": 4.599,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-loq-amd-ryzen-7-7435hs-24gb-ram-512gb-ssd-156-2004339788125p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP ASUS TUF GAMING F15 FX507ZC4-HN005W INTEL CORE I5-12500H 8GB RAM 512 GB SSD 15.6\" 12 NUCLEOS RTX3050 FHD",
+      "price": 2.749,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-asus-tuf-gaming-f15-fx507zc4-hn005w-intel-core-i5-12500h-8gb-ram-512-gb-ssd-156-12-nucleos-rtx3050-fhd-2004317213762p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO LOQ INTEL CORE I5-12450HX 8GB RAM 512 GB SSD 15.6\" NVIDIA GEFORCE RTX 3050 6GB",
+      "price": 2.899,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-loq-intel-core-i5-12450hx-8gb-ram-512-gb-ssd-156-nvidia-geforce-rtx-3050-6gb-2004333916692p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP ACER ANV15-41-R0RX AMD RYZEN 5-7535HS 8GB RAM 512GB SSD 15.6\" FHD RTX3050",
+      "price": 2.799,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-acer-anv15-41-r0rx-amd-ryzen-5-7535hs-8gb-ram-512gb-ssd-156-fhd-rtx3050-2004347464714p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP HP 15-FD0055LA, INTEL CORE I5-1235U, 10 NÚCLEOS, 16GB RAM, 512GB SSD, 15.6” FHD",
+      "price": 1.999,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-hp-15-fd0055la-intel-core-i5-1235u-10-nucleos-16gb-ram-512gb-ssd-156-fhd-pmp20000860480",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP GAMER ASUS TUF F15 RTX3050 FX507ZC4-HN087W INTEL CORE I5-12500H 16GB RAM 512GBSSD PCIE 3.0 NVME M.2 15.6\" FHD",
+      "price": 2.999,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-gamer-asus-tuf-f15-rtx3050-fx507zc4-hn087w-intel-core-i5-12500h-16gb-ram-512gbssd-pcie-30-nvme-m2-156-fhd-2004354889395p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO LOQ INTEL CORE I5-12450HX 24GB RAM 512GB SSD 15.6\" RTX 3050 6GB",
+      "price": 3.249,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-loq-intel-core-i5-12450hx-24gb-ram-512gb-ssd-156-rtx-3050-6gb-2004339788101p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO IDEAPAD SLIM 3I INTEL CORE I3-N305 8GB RAM 512GB SSD 15.6\"",
+      "price": 1.499,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-ideapad-slim-3i-intel-core-i3-n305-8gb-ram-512gb-ssd-156-2004326027688p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP ASUS UM3406KA-QD092W AMD RYZEN AI 7 350 PROCESSOR 16GB RAM 1TBSSD M.2 NVME PCIE 4.0 14\" ZENBOOK 14 OLED WUXGA",
+      "price": 4.699,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-asus-um3406ka-qd092w-amd-ryzen-ai-7-350-processor-16gb-ram-1tbssd-m2-nvme-pcie-40-14-zenbook-14-oled-wuxga-2004355164064p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP HP 15-FC0272LA AMD RYZEN 7 7730U 16GB RAM 512GBSSD 15.6\"",
+      "price": 2.299,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-hp-15-fc0272la-amd-ryzen-7-7730u-16gb-ram-512gbssd-156-2004356336347p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP HEWLETT PACKARD 15-FC0071LA AMD RYZEN 5 7520U 8GB RAM 512GB SSD 15.6 \"",
+      "price": 1.999,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-hewlett-packard-15-fc0071la-amd-ryzen-5-7520u-8gb-ram-512gb-ssd-156-2004351827215p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO IDEAPAD SLIM 3I 15.6\" INTEL CORE I5 8GB RAM 512GB SSD",
+      "price": 1.849,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-ideapad-slim-3i-156-intel-core-i5-8gb-ram-512gb-ssd-2004335012804p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP HP 15-FA0022LA INTEL CORE I5-12450H 16GB RAM 512GB SSD 15.6 \"",
+      "price": 3.049,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-hp-15-fa0022la-intel-core-i5-12450h-16gb-ram-512gb-ssd-156-2004349156884p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO IDEAPAD SLIM 3 AMD RYZEN 5 7520U 8GB RAM 512GBSSD 15.6\"",
+      "price": 1.829,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-ideapad-slim-3-amd-ryzen-5-7520u-8gb-ram-512gbssd-156-2004354141066p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO IDEAPAD SLIM 3 AMD RYZEN 5 7520U 8GB RAM 512GBSSD 15.6\"",
+      "price": 1.829,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-ideapad-slim-3-amd-ryzen-5-7520u-8gb-ram-512gbssd-156-2004352309949p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO YOGA SLIM 7 INTEL CORE I5-12450H 32GB RAM 1TB SSD 14.5 \"",
+      "price": 5.099,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-yoga-slim-7-intel-core-i5-12450h-32gb-ram-1tb-ssd-145-2004344539699p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP HP 15-FB2017LA AMD RYZEN 7 R7-8845HS 16GB RAM 1TB SSD 15.6\" RTX 3050",
+      "price": 4.499,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-hp-15-fb2017la-amd-ryzen-7-r7-8845hs-16gb-ram-1tb-ssd-156-rtx-3050-2004337219270p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP HP 15-FD0254LA INTEL CORE I5-1334U 8GB RAM 512GBSSD 15.6\"",
+      "price": 1.999,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-hp-15-fd0254la-intel-core-i5-1334u-8gb-ram-512gbssd-156-2004356336323p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO YOGA 7 2 EN 1 AMD RYZEN 7 16GB RAM 512GB SSD TOUCH 14”",
+      "price": 4.399,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-yoga-7-2-en-1-amd-ryzen-7-16gb-ram-512gb-ssd-touch-14-2004358859448p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP HP 15-FD0026LA INTEL CORE I3-N305 8GB RAM 512GB SSD 15.6 \"",
+      "price": 1.699,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-hp-15-fd0026la-intel-core-i3-n305-8gb-ram-512gb-ssd-156-2004349156815p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO LEGIÓN SLIM 5 AMD RYZEN 7 16GB RAM 512GB SSD 16”",
+      "price": 5.399,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-legion-slim-5-amd-ryzen-7-16gb-ram-512gb-ssd-16-2004356340221p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP HP 250 G10 CORE I7 1355U, 15.6” LCD LED HD SVA, 16GB RAM, 1TB SSD - 9S7D1LS",
+      "price": 2.849,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-hp-250-g10-core-i7-1355u-156-lcd-led-hd-sva-16gb-ram-1tb-ssd-9s7d1ls-pmp20000878165",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP HP 15-FD0067LA INTEL CORE I7-1255U 16GB RAM 512GB SSD 15.6\"",
+      "price": 2.749,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-hp-15-fd0067la-intel-core-i7-1255u-16gb-ram-512gb-ssd-156-2004349156860p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP DELL INSPIRON 3520 INTEL CORE I7 1255U 40GB RAM 512GB SSD 15.6' FHD IPS FREEDOS",
+      "price": 2.849,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-dell-inspiron-3520-intel-core-i7-1255u-40gb-ram-512gb-ssd-156-fhd-ips-freedos-pmp20000799834",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP ACER A315-59-58YL INTEL CORE I5-1235U 16GB RAM 512GB SSD 15.6\" FHD",
+      "price": 2.099,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-acer-a315-59-58yl-intel-core-i5-1235u-16gb-ram-512gb-ssd-156-fhd-2004347464691p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO IDEAPAD 5 2-IN-1 AMD RYZEN 7 8845HS 16GB RAM 512GB SSD TOUCH 14\"",
+      "price": 3.299,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-ideapad-5-2-in-1-amd-ryzen-7-8845hs-16gb-ram-512gb-ssd-touch-14-2004339791200p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO IDEAPAD SLIM 3 15IAH8 INTEL CORE I5-12450H 16GB RAM 512GB SSD 15.6” FHD - 83ER001DLM",
+      "price": 2.079,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-ideapad-slim-3-15iah8-intel-core-i5-12450h-16gb-ram-512gb-ssd-156-fhd-83er001dlm-pmp20000814562",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP ASUS VIVOBOOK 16 M1607KA-MB050W AMD RYZEN AI 7 350 PROCESSOR 16GB RAM 512GBSSD M.2 NVME PCIE 4.0 16\" WUXGA",
+      "price": 3.099,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-asus-vivobook-16-m1607ka-mb050w-amd-ryzen-ai-7-350-processor-16gb-ram-512gbssd-m2-nvme-pcie-40-16-wuxga-2004355162350p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO IDEAPAD 1 INTEL CELERON N4020 4GB RAM 64GB 14\" PANTALLA HD,GRÁFICOS UHD 600,WIN 11 EN MODO S,GRIS NUBE",
+      "price": 770.0,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-ideapad-1-intel-celeron-n4020-4gb-ram-64gb-14-pantalla-hdgraficos-uhd-600win-11-en-modo-sgris-nube-pmp20000106857",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO LOQ INTEL CORE I7 24GB RAM 512GB SSD 15.6”",
+      "price": 4.999,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-loq-intel-core-i7-24gb-ram-512gb-ssd-156-2004358655682p",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "title": "LAPTOP LENOVO IDEAPAD SLIM 3 15.6' FHD CORE I5-12450H 4.4GHZ, 16GB RAM DDR5-4800 - 1TB SSD M.2",
+      "price": 2.699,
+      "image_url": null,
+      "product_url": "https://simple.ripley.com.pe/laptop-lenovo-ideapad-slim-3-156-fhd-core-i5-12450h-44ghz-16gb-ram-ddr5-4800-1tb-ssd-m2-pmp20000797552",
+      "domain": "simple.ripley.com.pe"
+    }
+  ]
+}

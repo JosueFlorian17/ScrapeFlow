@@ -7,12 +7,14 @@
 #include <mutex>
 #include <cstdio>
 #include <stdio.h>
+#include <Windows.h>
+#include <direct.h>
 #include <nlohmann/json.hpp> // Para parsear JSON
 
 using json = nlohmann::json;
 
 std::mutex mutex_json;
-int globalIndex = 0; // Contador global para IDs únicos
+int globalIndex = 0;
 
 std::string escaparComillas(const std::string& input) {
     std::string result;
@@ -34,7 +36,6 @@ std::string generarProductoJSON(int index, const std::string& titulo,
     std::string imagenEscapada = escaparComillas(imagen);
     std::string urlEscapada = escaparComillas(url);
 
-    // Valores por defecto
     std::string imagenFinal = imagenEscapada.empty() ? "./img/abrigos/01.jpg" : imagenEscapada;
     double precioFinal = (precio <= 0) ? 1234 : precio;
 
@@ -54,31 +55,37 @@ std::string generarProductoJSON(int index, const std::string& titulo,
 
 std::string ejecutarScrapper(const std::string& url) {
     std::string comando;
-    
-    // Determinar qué scraper usar según la URL
+    char buffer[1024];
+    GetCurrentDirectoryA(sizeof(buffer), buffer);
+    std::string currentDir(buffer);
+
     if (url.find("plazavea.com.pe") != std::string::npos) {
-        comando = "python3 scrapper_plaza_vea.py \"" + url + "\"";
+        comando = "python \"" + currentDir + "\\scrapper_plaza_vea.py\" \"" + url + "\"";
     } else if (url.find("ripley.com.pe") != std::string::npos) {
-        comando = "python3 scrapper_ripley.py \"" + url + "\"";
+        comando = "python \"" + currentDir + "\\scrapper_ripley.py\" \"" + url + "\"";
     } else {
         std::cerr << "URL no reconocida: " << url << std::endl;
         return "";
     }
 
     std::string resultado;
-    char buffer[4096];
-    FILE* pipe = popen(comando.c_str(), "r");
-    
+    char pipeBuffer[4096];
+    FILE* pipe = _popen(comando.c_str(), "r");
+
     if (!pipe) {
         std::cerr << "Error al ejecutar: " << comando << std::endl;
         return "";
     }
-    
-    while (fgets(buffer, sizeof(buffer), pipe) {
-        resultado += buffer;
+
+    while (fgets(pipeBuffer, sizeof(pipeBuffer), pipe)) {
+        resultado += pipeBuffer;
+    }
+
+    int exitCode = _pclose(pipe);
+    if (exitCode != 0) {
+        std::cerr << "Scrapper falló con código: " << exitCode << std::endl;
     }
     
-    pclose(pipe);
     return resultado;
 }
 
@@ -90,7 +97,7 @@ int main() {
         "https://simple.ripley.com.pe/tecnologia/computacion/laptops"
     };
 
-    std::vector<std::string> todosProductos; // Almacenará todos los productos
+    std::vector<std::string> todosProductos;
 
     #pragma omp parallel for
     for (int i = 0; i < static_cast<int>(urls.size()); ++i) {
@@ -100,25 +107,53 @@ int main() {
         std::string resultadoJson = ejecutarScrapper(urls[i]);
         
         if (resultadoJson.empty()) {
-            std::cerr << "[Hilo " << tid << "] Error: no se obtuvo JSON para " << urls[i] << std::endl;
+            std::cerr << "[Hilo " << tid << "] Error: no se obtuvo JSON\n";
             continue;
         }
+
+        // Guardar JSON crudo para depuración
+        std::ofstream debug("debug_json_" + std::to_string(tid) + ".txt");
+        debug << resultadoJson;
+        debug.close();
 
         try {
             json datos = json::parse(resultadoJson);
             
             if (datos["success"] && datos.contains("results")) {
-                // Sección crítica para evitar mezcla de productos
                 #pragma omp critical
                 {
                     for (auto& producto : datos["results"]) {
-                        // Extraer campos con valores por defecto
-                        std::string titulo = producto.value("title", "Producto sin nombre");
-                        double precio = producto.value("price", 0.0);
-                        std::string imagen = producto.value("image_url", "");
-                        std::string urlProducto = producto.value("product_url", "");
+                        // Manejo seguro de campos nulos
+                        std::string titulo = "Producto sin nombre";
+                        if (producto.contains("title") && !producto["title"].is_null()) {
+                            titulo = producto["title"].get<std::string>();
+                        }
 
-                        // Generar JSON con estructura deseada
+                        double precio = 0.0;
+                        if (producto.contains("price") && !producto["price"].is_null()) {
+                            if (producto["price"].is_number()) {
+                                precio = producto["price"].get<double>();
+                            }
+                            // Manejar precios como strings
+                            else if (producto["price"].is_string()) {
+                                try {
+                                    precio = std::stod(producto["price"].get<std::string>());
+                                } catch (...) {
+                                    precio = 0.0;
+                                }
+                            }
+                        }
+
+                        std::string imagen = "";
+                        if (producto.contains("image_url") && !producto["image_url"].is_null()) {
+                            imagen = producto["image_url"].get<std::string>();
+                        }
+
+                        std::string urlProducto = "";
+                        if (producto.contains("product_url") && !producto["product_url"].is_null()) {
+                            urlProducto = producto["product_url"].get<std::string>();
+                        }
+
                         std::string productoJSON = generarProductoJSON(
                             globalIndex, 
                             titulo, 
@@ -131,16 +166,31 @@ int main() {
                         globalIndex++;
                     }
                 }
-            } else {
-                std::cerr << "[Hilo " << tid << "] El scraper no reportó éxito o no tiene resultados" << std::endl;
             }
-        } catch (const std::exception& e) {
-            std::cerr << "[Hilo " << tid << "] Error parseando JSON: " << e.what() << std::endl;
+            else {
+                std::cerr << "[Hilo " << tid << "] El scraper no reportó éxito\n";
+                std::ofstream fail("failed_json_" + std::to_string(tid) + ".txt");
+                fail << resultadoJson;
+                fail.close();
+            }
+        }
+        catch (const std::exception& e) {
+            std::cerr << "[Hilo " << tid << "] Error: " << e.what() << "\n";
+            std::ofstream error("error_json_" + std::to_string(tid) + ".txt");
+            error << resultadoJson;
+            error.close();
         }
     }
 
-    // Guardar todos los productos en un solo archivo JSON
-    std::ofstream salida("js/productos_generados2.json");
+    // Crear directorio
+    if (_mkdir("js") == -1) {
+    if (errno != EEXIST) {
+        std::cerr << "Error creando directorio js" << std::endl;
+    }
+}
+
+    // Guardar productos
+    std::ofstream salida("js/productos_generados.json");
     salida << "[\n";
     for (size_t i = 0; i < todosProductos.size(); ++i) {
         salida << todosProductos[i];
@@ -150,8 +200,6 @@ int main() {
     salida << "]\n";
     salida.close();
 
-    std::cout << "Productos generados guardados en js/productos_generados.json" << std::endl;
-    std::cout << "Total de productos: " << todosProductos.size() << std::endl;
-
+    std::cout << "Productos generados: " << todosProductos.size() << std::endl;
     return 0;
 }

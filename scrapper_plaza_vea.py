@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import sys
 import json
 from urllib.parse import urlparse
 from selenium import webdriver
@@ -10,6 +9,11 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import argparse
+import sys
+import io
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 def init_driver():
     options = Options()
