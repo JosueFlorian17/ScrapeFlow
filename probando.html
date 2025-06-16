@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Buscador de URLs</title>
+</head>
+<body>
+  <h1>🔍 Generador de URLs por Tienda</h1>
+  <input type="text" id="searchInput" placeholder="Ej: iphone 16" />
+  <button onclick="enviarBusqueda()">Guardar en archivo</button>
+  <p id="mensaje"></p>
+
+  <script>
+    function enviarBusqueda() {
+      const searchTerm = document.getElementById("searchInput").value.trim();
+      if (!searchTerm) {
+        alert("Por favor, escribe un término de búsqueda.");
+        return;
+      }
+
+      fetch("/guardar", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ termino: searchTerm })
+      })
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("mensaje").textContent = data;
+      })
+      .catch(error => {
+        document.getElementById("mensaje").textContent = "Error al guardar.";
+        console.error(error);
+      });
+    }
+  </script>
+</body>
+</html>

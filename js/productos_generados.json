@@ -1,46 +1,146 @@
 [
-    {
-        "id": "web-0",
-        "titulo": "\"Teleticket.com.pe - Tu entrada a las mejores experiencias",
-        "imagen": "./img/abrigos/01.jpg",
-        "categoria": {
-            "nombre": "Web",
-            "id": "web"
-        },
-        "precio": 1234,
-        "url": "https://teleticket.com.pe/"
-    },
-    {
-        "id": "web-1",
-        "titulo": "\"Facebook - log in or sign up",
-        "imagen": "./img/abrigos/01.jpg",
-        "categoria": {
-            "nombre": "Web",
-            "id": "web"
-        },
-        "precio": 1234,
-        "url": "https://www.facebook.com/"
-    },
-    {
-        "id": "web-2",
-        "titulo": "\"Google",
-        "imagen": "./img/abrigos/01.jpg",
-        "categoria": {
-            "nombre": "Web",
-            "id": "web"
-        },
-        "precio": 1234,
-        "url": "https://www.google.com/"
-    },
-    {
-        "id": "web-3",
-        "titulo": "\"Wikipedia",
-        "imagen": "./img/abrigos/01.jpg",
-        "categoria": {
-            "nombre": "Web",
-            "id": "web"
-        },
-        "precio": 1234,
-        "url": "https://www.wikipedia.org/"
-    }
+  {
+    "titulo": "Celular Samsung Galaxy A56 256B 8GB 6.7\",
+    "precio": "N/A",
+    "imagen": "https://www.efe.com.pe/media/catalog/product/s/m/sm-a566ezkfltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.efe.com.pe/a56-5g-256gb-negro-sm-a566ezkfltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 128GB 8GB 6.7\",
+    "precio": "N/A",
+    "imagen": "https://www.efe.com.pe/media/catalog/product/s/m/sm-a566ellbltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.efe.com.pe/a56-5g-128gb-rosado-sm-a566elibltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 256B 8GB 6.7\",
+    "precio": "N/A",
+    "imagen": "https://www.efe.com.pe/media/catalog/product/s/m/sm-a566ellfltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.efe.com.pe/a56-5g-256gb-rosado-sm-a566elifltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 128GB 8GB 6.7\",
+    "precio": "N/A",
+    "imagen": "https://www.efe.com.pe/media/catalog/product/s/m/sm-a566ezkbltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.efe.com.pe/a56-5g-128gb-negro-sm-a566ezkbltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 256GB 12GB 6.7\",
+    "precio": "N/A",
+    "imagen": "https://www.efe.com.pe/media/catalog/product/a/5/a56-256-12ggraf_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.efe.com.pe/samsung-galaxy-a56-256gb-12gb-50mp-6-9aw-a56-256-12ggraf.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 128GB 8GB 6.7\",
+    "precio": "N/A",
+    "imagen": "https://www.efe.com.pe/media/catalog/product/a/5/a56-128-8gbgraf_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.efe.com.pe/samsung-galaxy-a56-128gb-8gb-50mp-6-9awe-a56-128-8gbgraf.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 256GB 12GB 6.7\",
+    "precio": "N/A",
+    "imagen": "https://www.efe.com.pe/media/catalog/product/a/5/a56-256-12goli_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.efe.com.pe/samsung-galaxy-a56-256gb-12gb-50mp-6-9aw-a56-256-12goli.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 256GB 12GB 6.7\",
+    "precio": "N/A",
+    "imagen": "https://www.efe.com.pe/media/catalog/product/a/5/a56-256-12gpink_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.efe.com.pe/samsung-galaxy-a56-256gb-12gb-50mp-6-9aw-a56-256-12gpink.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 256B 8GB 6.7\",
+    "precio": "N/A",
+    "imagen": "https://www.lacuracao.pe/media/catalog/product/s/m/sm-a566ezkfltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.lacuracao.pe/a56-5g-256gb-negro-sm-a566ezkfltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 128GB 8GB 6.7\",
+    "precio": "N/A",
+    "imagen": "https://www.lacuracao.pe/media/catalog/product/s/m/sm-a566ellbltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.lacuracao.pe/a56-5g-128gb-rosado-sm-a566elibltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 256B 8GB 6.7\",
+    "precio": "N/A",
+    "imagen": "https://www.lacuracao.pe/media/catalog/product/s/m/sm-a566ellfltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.lacuracao.pe/a56-5g-256gb-rosado-sm-a566elifltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 128GB 8GB 6.7\",
+    "precio": "N/A",
+    "imagen": "https://www.lacuracao.pe/media/catalog/product/s/m/sm-a566ezkbltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.lacuracao.pe/a56-5g-128gb-negro-sm-a566ezkbltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 256GB 12GB 6.7\",
+    "precio": "N/A",
+    "imagen": "https://www.lacuracao.pe/media/catalog/product/a/5/a56-256-12ggraf_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.lacuracao.pe/samsung-galaxy-a56-256gb-12gb-50mp-6-9aw-a56-256-12ggraf.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 128GB 8GB 6.7\",
+    "precio": "N/A",
+    "imagen": "https://www.lacuracao.pe/media/catalog/product/a/5/a56-128-8gbgraf_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.lacuracao.pe/samsung-galaxy-a56-128gb-8gb-50mp-6-9awe-a56-128-8gbgraf.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 256GB 12GB 6.7\",
+    "precio": "N/A",
+    "imagen": "https://www.lacuracao.pe/media/catalog/product/a/5/a56-256-12goli_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.lacuracao.pe/samsung-galaxy-a56-256gb-12gb-50mp-6-9aw-a56-256-12goli.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 256GB 12GB 6.7\",
+    "precio": "N/A",
+    "imagen": "https://www.lacuracao.pe/media/catalog/product/a/5/a56-256-12gpink_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.lacuracao.pe/samsung-galaxy-a56-256gb-12gb-50mp-6-9aw-a56-256-12gpink.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 5G 256GB, 8GB RAM, cámara principal 50MP + 12MP + 5MP, frontal 12MP, 6.7\",
+    "precio": "N/A",
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/459733-300-300?v=638848400248970000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/celular-samsung-a56-5g-256gb-8gb-ram-negro-sm-a566ezkfltp/p"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 5G 256GB, 12GB RAM, cámara principal 50MP+12MP+5MP, frontal 12MP, 6.7\",
+    "precio": "N/A",
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/459773-300-300?v=638848414455670000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/samsung-a56-5g-256gb-12gb-ram-camara-principal-50mp-12mp-5mp-frontal-12mp-6-7--lightgray-100433325/p"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 5G 256GB, 12GB RAM, cámara principal 50MP+12MP+5MP, frontal 12MP, 6.7\",
+    "precio": "N/A",
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/459724-300-300?v=638848399206570000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/samsung-a56-5g-256gb-12gb-ram-camara-principal-50mp-12mp-5mp-frontal-12mp-6-7--graphite-100433324/p"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 5G 256GB, 8GB RAM, cámara principal 50MP + 12MP + 5MP, frontal 12MP, 6.7\",
+    "precio": "N/A",
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/460122-300-300?v=638850876625630000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/samsung-galaxy-a56-5g-256gb-8gb-ram-rosado-sm-a566elifltp/p"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 5G 256GB, 12GB RAM, cámara principal 50MP+12MP+5MP, frontal 12MP, 6.7\",
+    "precio": "N/A",
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/460105-300-300?v=638850874702900000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/samsung-a56-5g-256gb-12gb-ram-camara-principal-50mp-12mp-5mp-frontal-12mp-6-7--pink-100433327/p"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 5G 256GB, 12GB RAM, cámara principal 50MP+12MP+5MP, frontal 12MP, 6.7\",
+    "precio": "N/A",
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/460141-300-300?v=638850879916970000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/samsung-a56-5g-256gb-12gb-ram-camara-principal-50mp-12mp-5mp-frontal-12mp-6-7--olive-100433326/p"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 5G 256GB, 12GB RAM, cámara principal 50MP+12MP+5MP, frontal 12MP, rosado",
+    "precio": "S/2,199.00",
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/460145-300-300?v=638850881041270000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/celular-samsung-galaxy-a56-12gb-ram-256gb-camara-principal-50mp-12mp-5mp-frontal-12mp-rosado-100434474/p"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy A56 5G 256GB, 12GB RAM, cámara principal 50MP+12MP+5MP, frontal 12MP, negro",
+    "precio": "S/2,299.00",
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/459743-300-300?v=638848401404400000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/celular-samsung-galaxy-a56-12gb-ram-256gb-camara-principal-50mp-12mp-5mp-frontal-12mp-negro-100434453/p"
+  }
 ]
