@@ -1,146 +1,146 @@
 [
   {
-    "titulo": "Celular Samsung Galaxy A56 256B 8GB 6.7\",
+    "titulo": "Celular Samsung Galaxy S25 5G 12GB 128GB 6.2  Navy",
+    "precio": "S/ 2,899.00",
+    "imagen": "https://www.efe.com.pe/media/catalog/product/s/m/sm-s931bdblltp_1r_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.efe.com.pe/s25-12gb-128gb-navy-sm-s931bdblltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 Ultra 256GB 12GB 6.9  Titanio Gris",
+    "precio": "",
+    "imagen": "https://www.efe.com.pe/media/catalog/product/s/2/s25ul-256gray_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.efe.com.pe/samsung-galaxy-s25-ultra-256gb-12gb-200m-s25ul-256gray.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 5G 12GB 128GB 6.2  Icy blue",
+    "precio": "S/ 2,899.00",
+    "imagen": "https://www.efe.com.pe/media/catalog/product/s/m/sm-s931blblltp_1r_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.efe.com.pe/s25-12gb-128gb-icyblue-sm-s931blblltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 5G 12GB 256GB 6.2  Silver Shadow",
+    "precio": "S/ 3,799.00",
+    "imagen": "https://www.efe.com.pe/media/catalog/product/s/m/sm-s931bzsmltp_1r_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.efe.com.pe/s25-12gb-256gb-silver-shadow-sm-s931bzsmltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 5G 12GB 256GB 6.2  Icy blue",
+    "precio": "S/ 3,799.00",
+    "imagen": "https://www.efe.com.pe/media/catalog/product/s/m/sm-s931blbmltp_1r_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.efe.com.pe/s25-12gb-256gb-icyblue-sm-s931blbmltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 Ultra 512GB 12GB 6.9  Titanio Negro",
+    "precio": "",
+    "imagen": "https://www.efe.com.pe/media/catalog/product/s/2/s25ul-512black_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.efe.com.pe/samsung-galaxy-s25-ultra-512gb-12gb-200m-s25ul-512black.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 Ultra 256GB 12GB 6.9  Titanio Negro",
+    "precio": "",
+    "imagen": "https://www.efe.com.pe/media/catalog/product/s/2/s25ul-256black_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.efe.com.pe/samsung-galaxy-s25-ultra-256gb-12gb-200m-s25ul-256black.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 Ultra 5G 12GB 256GB 6.9  Titanium Gray",
+    "precio": "S/ 4,499.00",
+    "imagen": "https://www.efe.com.pe/media/catalog/product/s/m/sm-s938bztlltp_1r_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.efe.com.pe/s25ultra-12gb-256gb-titanium-gy-sm-s938bztlltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 5G 12GB 128GB 6.2  Navy",
+    "precio": "S/ 2,899.00",
+    "imagen": "https://www.lacuracao.pe/media/catalog/product/s/m/sm-s931bdblltp_1r_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.lacuracao.pe/s25-12gb-128gb-navy-sm-s931bdblltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 Ultra 256GB 12GB 6.9  Titanio Gris",
+    "precio": "",
+    "imagen": "https://www.lacuracao.pe/media/catalog/product/s/2/s25ul-256gray_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.lacuracao.pe/samsung-galaxy-s25-ultra-256gb-12gb-200m-s25ul-256gray.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 5G 12GB 128GB 6.2  Icy blue",
+    "precio": "S/ 2,899.00",
+    "imagen": "https://www.lacuracao.pe/media/catalog/product/s/m/sm-s931blblltp_1r_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.lacuracao.pe/s25-12gb-128gb-icyblue-sm-s931blblltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 5G 12GB 256GB 6.2  Silver Shadow",
+    "precio": "S/ 3,799.00",
+    "imagen": "https://www.lacuracao.pe/media/catalog/product/s/m/sm-s931bzsmltp_1r_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.lacuracao.pe/s25-12gb-256gb-silver-shadow-sm-s931bzsmltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 5G 12GB 256GB 6.2  Icy blue",
+    "precio": "S/ 3,799.00",
+    "imagen": "https://www.lacuracao.pe/media/catalog/product/s/m/sm-s931blbmltp_1r_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.lacuracao.pe/s25-12gb-256gb-icyblue-sm-s931blbmltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 Ultra 512GB 12GB 6.9  Titanio Negro",
+    "precio": "",
+    "imagen": "https://www.lacuracao.pe/media/catalog/product/s/2/s25ul-512black_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.lacuracao.pe/samsung-galaxy-s25-ultra-512gb-12gb-200m-s25ul-512black.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 Ultra 256GB 12GB 6.9  Titanio Negro",
+    "precio": "",
+    "imagen": "https://www.lacuracao.pe/media/catalog/product/s/2/s25ul-256black_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.lacuracao.pe/samsung-galaxy-s25-ultra-256gb-12gb-200m-s25ul-256black.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 5G 12GB 256GB 6.2  Navy",
+    "precio": "S/ 3,799.00",
+    "imagen": "https://www.lacuracao.pe/media/catalog/product/s/m/sm-s931bdbmltp_1r_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+    "url": "https://www.lacuracao.pe/s25-12gb-256gb-navy-sm-s931bdbmltp.html"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 Ultra 5G 512GB, 12GB RAM, cámara principal 200MP + 50MP + 50MP + 10MP, frontal 12MP, 6.9'', Titanium Black",
     "precio": "N/A",
-    "imagen": "https://www.efe.com.pe/media/catalog/product/s/m/sm-a566ezkfltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
-    "url": "https://www.efe.com.pe/a56-5g-256gb-negro-sm-a566ezkfltp.html"
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/459256-300-300?v=638847577928170000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/celular-samsung-galaxy-s25-ultra-512gb-12gb-ram-sm-s938bzkmltp/p"
   },
   {
-    "titulo": "Celular Samsung Galaxy A56 128GB 8GB 6.7\",
+    "titulo": "Celular Samsung Galaxy S25 5G, 256GB, 12GB RAM, cámara principal 50MP + 10MP + 12MP, frontal 12MP, 6.2'', azul",
     "precio": "N/A",
-    "imagen": "https://www.efe.com.pe/media/catalog/product/s/m/sm-a566ellbltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
-    "url": "https://www.efe.com.pe/a56-5g-128gb-rosado-sm-a566elibltp.html"
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/425380-300-300?v=638756625757700000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/celular-samsung-galaxy-s25-256gb-12gb-ram-sm-s931bdbmltp/p"
   },
   {
-    "titulo": "Celular Samsung Galaxy A56 256B 8GB 6.7\",
+    "titulo": "Celular Samsung Galaxy S25 Plus 5G, 512GB, 12GB RAM, cámara principal 50MP + 10MP + 12MP, frontal 12MP, 6.7'', azul",
     "precio": "N/A",
-    "imagen": "https://www.efe.com.pe/media/catalog/product/s/m/sm-a566ellfltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
-    "url": "https://www.efe.com.pe/a56-5g-256gb-rosado-sm-a566elifltp.html"
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/424013-300-300?v=638751689121830000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/celular-samsung-galaxy-s25-plus-512gb-12gb-ram-sm-s936bdbmltp/p"
   },
   {
-    "titulo": "Celular Samsung Galaxy A56 128GB 8GB 6.7\",
+    "titulo": "Celular Samsung Galaxy S25 Ultra 5G 12GB RAM, 256GB, cámara principal 200MP + 10MP+ 50MP + 50MP, frontal 12MP, 6.9 , Titanium Gray",
+    "precio": "S/6,459.00",
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/459214-300-300?v=638847571208130000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/samsung-s25-ultra-256gb-12gb-ram-camara-principal-200mp-10mp-50mp-50mp-frontal-12mp-6-9--titaniumgray-100432953/p"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 Ultra 5G, 12GB RAM, 256GB, cámara principal 200MP + 10MP + 50MP + 50MP, frontal 12MP, 6.9 , Titanium Whitesilver",
+    "precio": "S/6,459.00",
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/459193-300-300?v=638847568317630000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/samsung-s25-ultra-256gb-12gb-ram-camara-principal-200mp-10mp-50mp-50mp-frontal-12mp-6-9--titanium-whitesilver-100433322/p"
+  },
+  {
+    "titulo": "Combo Celular Samsung S25 Ultra 5G 12GB RAM, 256GB, cámara principal 200MP+50MP+10MP+50MP, frontal 12MP, 6.9 , titanium black + Lenovo HT38",
+    "precio": "S/5,799.00",
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/444361-300-300?v=638804359956870000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/samsung-galaxy-s25-ultra-12-gb-ram-256-gb-color-black-titanium---regalo-100433172/p"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 Ultra 5G 512GB, 12GB RAM, cámara principal 200MP+10MP+50MP, frontal 12MP, 6.9 , titanium gray",
+    "precio": "S/7,089.00",
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/459270-300-300?v=638847579028000000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/samsung-s25-ultra-512gb-12gb-ram-camara-principal-200mp-10mp-50mp-frontal-12mp-6-9--titaniumgray-100432451/p"
+  },
+  {
+    "titulo": "Celular Samsung Galaxy S25 Ultra 5G 512GB, 12GB RAM, cámara principal 200MP + 50MP + 50MP + 10MP, frontal 12MP, 6.9'', Titanium Silverblue",
     "precio": "N/A",
-    "imagen": "https://www.efe.com.pe/media/catalog/product/s/m/sm-a566ezkbltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
-    "url": "https://www.efe.com.pe/a56-5g-128gb-negro-sm-a566ezkbltp.html"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 256GB 12GB 6.7\",
-    "precio": "N/A",
-    "imagen": "https://www.efe.com.pe/media/catalog/product/a/5/a56-256-12ggraf_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
-    "url": "https://www.efe.com.pe/samsung-galaxy-a56-256gb-12gb-50mp-6-9aw-a56-256-12ggraf.html"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 128GB 8GB 6.7\",
-    "precio": "N/A",
-    "imagen": "https://www.efe.com.pe/media/catalog/product/a/5/a56-128-8gbgraf_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
-    "url": "https://www.efe.com.pe/samsung-galaxy-a56-128gb-8gb-50mp-6-9awe-a56-128-8gbgraf.html"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 256GB 12GB 6.7\",
-    "precio": "N/A",
-    "imagen": "https://www.efe.com.pe/media/catalog/product/a/5/a56-256-12goli_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
-    "url": "https://www.efe.com.pe/samsung-galaxy-a56-256gb-12gb-50mp-6-9aw-a56-256-12goli.html"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 256GB 12GB 6.7\",
-    "precio": "N/A",
-    "imagen": "https://www.efe.com.pe/media/catalog/product/a/5/a56-256-12gpink_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
-    "url": "https://www.efe.com.pe/samsung-galaxy-a56-256gb-12gb-50mp-6-9aw-a56-256-12gpink.html"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 256B 8GB 6.7\",
-    "precio": "N/A",
-    "imagen": "https://www.lacuracao.pe/media/catalog/product/s/m/sm-a566ezkfltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
-    "url": "https://www.lacuracao.pe/a56-5g-256gb-negro-sm-a566ezkfltp.html"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 128GB 8GB 6.7\",
-    "precio": "N/A",
-    "imagen": "https://www.lacuracao.pe/media/catalog/product/s/m/sm-a566ellbltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
-    "url": "https://www.lacuracao.pe/a56-5g-128gb-rosado-sm-a566elibltp.html"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 256B 8GB 6.7\",
-    "precio": "N/A",
-    "imagen": "https://www.lacuracao.pe/media/catalog/product/s/m/sm-a566ellfltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
-    "url": "https://www.lacuracao.pe/a56-5g-256gb-rosado-sm-a566elifltp.html"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 128GB 8GB 6.7\",
-    "precio": "N/A",
-    "imagen": "https://www.lacuracao.pe/media/catalog/product/s/m/sm-a566ezkbltp_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
-    "url": "https://www.lacuracao.pe/a56-5g-128gb-negro-sm-a566ezkbltp.html"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 256GB 12GB 6.7\",
-    "precio": "N/A",
-    "imagen": "https://www.lacuracao.pe/media/catalog/product/a/5/a56-256-12ggraf_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
-    "url": "https://www.lacuracao.pe/samsung-galaxy-a56-256gb-12gb-50mp-6-9aw-a56-256-12ggraf.html"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 128GB 8GB 6.7\",
-    "precio": "N/A",
-    "imagen": "https://www.lacuracao.pe/media/catalog/product/a/5/a56-128-8gbgraf_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
-    "url": "https://www.lacuracao.pe/samsung-galaxy-a56-128gb-8gb-50mp-6-9awe-a56-128-8gbgraf.html"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 256GB 12GB 6.7\",
-    "precio": "N/A",
-    "imagen": "https://www.lacuracao.pe/media/catalog/product/a/5/a56-256-12goli_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
-    "url": "https://www.lacuracao.pe/samsung-galaxy-a56-256gb-12gb-50mp-6-9aw-a56-256-12goli.html"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 256GB 12GB 6.7\",
-    "precio": "N/A",
-    "imagen": "https://www.lacuracao.pe/media/catalog/product/a/5/a56-256-12gpink_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
-    "url": "https://www.lacuracao.pe/samsung-galaxy-a56-256gb-12gb-50mp-6-9aw-a56-256-12gpink.html"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 5G 256GB, 8GB RAM, cámara principal 50MP + 12MP + 5MP, frontal 12MP, 6.7\",
-    "precio": "N/A",
-    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/459733-300-300?v=638848400248970000&width=300&height=300&aspect=true",
-    "url": "https://www.coolbox.pe/celular-samsung-a56-5g-256gb-8gb-ram-negro-sm-a566ezkfltp/p"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 5G 256GB, 12GB RAM, cámara principal 50MP+12MP+5MP, frontal 12MP, 6.7\",
-    "precio": "N/A",
-    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/459773-300-300?v=638848414455670000&width=300&height=300&aspect=true",
-    "url": "https://www.coolbox.pe/samsung-a56-5g-256gb-12gb-ram-camara-principal-50mp-12mp-5mp-frontal-12mp-6-7--lightgray-100433325/p"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 5G 256GB, 12GB RAM, cámara principal 50MP+12MP+5MP, frontal 12MP, 6.7\",
-    "precio": "N/A",
-    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/459724-300-300?v=638848399206570000&width=300&height=300&aspect=true",
-    "url": "https://www.coolbox.pe/samsung-a56-5g-256gb-12gb-ram-camara-principal-50mp-12mp-5mp-frontal-12mp-6-7--graphite-100433324/p"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 5G 256GB, 8GB RAM, cámara principal 50MP + 12MP + 5MP, frontal 12MP, 6.7\",
-    "precio": "N/A",
-    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/460122-300-300?v=638850876625630000&width=300&height=300&aspect=true",
-    "url": "https://www.coolbox.pe/samsung-galaxy-a56-5g-256gb-8gb-ram-rosado-sm-a566elifltp/p"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 5G 256GB, 12GB RAM, cámara principal 50MP+12MP+5MP, frontal 12MP, 6.7\",
-    "precio": "N/A",
-    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/460105-300-300?v=638850874702900000&width=300&height=300&aspect=true",
-    "url": "https://www.coolbox.pe/samsung-a56-5g-256gb-12gb-ram-camara-principal-50mp-12mp-5mp-frontal-12mp-6-7--pink-100433327/p"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 5G 256GB, 12GB RAM, cámara principal 50MP+12MP+5MP, frontal 12MP, 6.7\",
-    "precio": "N/A",
-    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/460141-300-300?v=638850879916970000&width=300&height=300&aspect=true",
-    "url": "https://www.coolbox.pe/samsung-a56-5g-256gb-12gb-ram-camara-principal-50mp-12mp-5mp-frontal-12mp-6-7--olive-100433326/p"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 5G 256GB, 12GB RAM, cámara principal 50MP+12MP+5MP, frontal 12MP, rosado",
-    "precio": "S/2,199.00",
-    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/460145-300-300?v=638850881041270000&width=300&height=300&aspect=true",
-    "url": "https://www.coolbox.pe/celular-samsung-galaxy-a56-12gb-ram-256gb-camara-principal-50mp-12mp-5mp-frontal-12mp-rosado-100434474/p"
-  },
-  {
-    "titulo": "Celular Samsung Galaxy A56 5G 256GB, 12GB RAM, cámara principal 50MP+12MP+5MP, frontal 12MP, negro",
-    "precio": "S/2,299.00",
-    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/459743-300-300?v=638848401404400000&width=300&height=300&aspect=true",
-    "url": "https://www.coolbox.pe/celular-samsung-galaxy-a56-12gb-ram-256gb-camara-principal-50mp-12mp-5mp-frontal-12mp-negro-100434453/p"
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/459294-300-300?v=638847581161400000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/samsung-galaxy-s25-ultra-5g-512gb-12gb-ram-azul-sm-s938bzbmltp/p"
   }
 ]

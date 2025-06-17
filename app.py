@@ -1,49 +1,48 @@
-from flask import Flask, request, send_from_directory
+from flask import Flask, request, render_template_string
 from urllib.parse import quote
 
 app = Flask(__name__)
 
-@app.route('/')
+HTML = """
+<!doctype html>
+<title>Buscador de URLs</title>
+<h1>Generador de URLs de búsqueda</h1>
+<form action="/generar" method="POST">
+  <input type="text" name="search_term" placeholder="Ej: iphone 16" required>
+  <button type="submit">Buscar</button>
+</form>
+<p>{{ mensaje }}</p>
+"""
+
+@app.route("/", methods=["GET"])
 def index():
-    return send_from_directory('.', 'probando.html')
+    return render_template_string(HTML)
 
-@app.route('/ver')
-def ver_archivo():
-    try:
-        with open("urls.txt", "r", encoding="utf-8") as f:
-            contenido = f.read().replace("\n", "<br>")
-        return f"<h2>Contenido de urls.txt</h2><p>{contenido}</p>"
-    except FileNotFoundError:
-        return "Archivo urls.txt no encontrado."
-
-@app.route('/guardar', methods=['POST'])
-def guardar():
-    data = request.get_json()
-    term = data.get("termino", "").strip()
-    if not term:
-        return "Término vacío", 400
-
-    encoded = quote(term)
-    dashed = term.replace(" ", "-")
+@app.route("/generar", methods=["POST"])
+def generar():
+    search_term = request.form["search_term"]
+    encoded_term = quote(search_term)
+    dash_term = search_term.replace(" ", "-")
 
     urls = {
-        "Ripley": f"https://simple.ripley.com.pe/search/{encoded}?sort=relevance_desc&page=1",
-        "Promart": f"https://www.promart.pe/{dashed}?ft={encoded}",
-        "Metro": f"https://www.metro.pe/{encoded}?_q={encoded}&map=ft",
-        "Falabella": f"https://www.falabella.com.pe/falabella-pe/search?Ntt={encoded}",
-        "Efe": f"https://www.efe.com.pe/catalogsearch/result/?q={encoded}",
-        "La Curacao": f"https://www.lacuracao.pe/catalogsearch/result/?q={encoded}",
-        "Coolbox": f"https://www.coolbox.pe/{encoded}?_q={encoded}&map=ft",
-        "Hiraoka": f"https://hiraoka.com.pe/gpsearch/?q={encoded}",
-        "Plaza Vea": f"https://www.plazavea.com.pe/busca/?ft={encoded}"
+        "Ripley": f"https://simple.ripley.com.pe/search/{encoded_term}?sort=relevance_desc&page=1",
+        "Promart": f"https://www.promart.pe/{dash_term}?ft={encoded_term}",
+        "Metro": f"https://www.metro.pe/{encoded_term}?_q={encoded_term}&map=ft",
+        "Falabella": f"https://www.falabella.com.pe/falabella-pe/search?Ntt={encoded_term}",
+        "Efe": f"https://www.efe.com.pe/catalogsearch/result/?q={encoded_term}",
+        "La Curacao": f"https://www.lacuracao.pe/catalogsearch/result/?q={encoded_term}",
+        "Coolbox": f"https://www.coolbox.pe/{encoded_term}?_q={encoded_term}&map=ft",
+        "Hiraoka": f"https://hiraoka.com.pe/gpsearch/?q={encoded_term}",
+        "Plaza Vea": f"https://www.plazavea.com.pe/busca/?fq=C:679/686/917&ft={encoded_term}"
     }
 
+    # ✅ Actualiza el archivo local urls.txt
     with open("urls.txt", "w", encoding="utf-8") as f:
-        f.write(f"🔍 URLs generadas para: {term}\n\n")
+        f.write(f"🔍 URLs generadas para: {search_term}\n\n")
         for tienda, url in urls.items():
             f.write(f"{tienda}: {url}\n")
 
-    return "Archivo urls.txt actualizado exitosamente."
+    return render_template_string(HTML, mensaje="✅ URLs actualizadas correctamente en 'urls.txt'.")
 
 if __name__ == "__main__":
     app.run(debug=True)

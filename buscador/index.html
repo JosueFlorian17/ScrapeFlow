@@ -76,10 +76,40 @@
 
 <script>
   document.getElementById('searchButton').addEventListener('click', function () {
-    // Redirige a index.html con la categoría "todos"
-    window.location.href = "../index.html?categoria=todos";
+    const searchTerm = document.getElementById("searchInput").value.trim();
+    const loading = document.getElementById("loading");
+    const suggestions = document.getElementById("suggestions");
+
+    if (!searchTerm) {
+      alert("Por favor, ingresa un término de búsqueda.");
+      return;
+    }
+
+    // Mostrar carga
+    loading.style.display = "block";
+    suggestions.innerHTML = "";
+
+    // Enviar al backend
+    fetch("/guardar", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ termino: searchTerm })
+    })
+    .then(res => res.text())
+    .then(data => {
+      loading.style.display = "none";
+      suggestions.innerHTML = `<p>${data}</p>`;
+    })
+    .catch(err => {
+      loading.style.display = "none";
+      suggestions.innerHTML = `<p style="color:red;">Error al guardar búsqueda.</p>`;
+      console.error(err);
+    });
   });
 </script>
+
 
 
 <script src="js/script.js"></script>

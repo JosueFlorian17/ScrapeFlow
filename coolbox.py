@@ -38,7 +38,7 @@ for i in range(1, 9):
         article = driver.find_element(By.CSS_SELECTOR, selector_article)
 
         try:
-            nombre = article.find_element(By.CSS_SELECTOR, "h3 span").text.strip()
+            nombre = article.find_element(By.CSS_SELECTOR, "h3 span").text.strip().replace("\"", " ")
         except:
             nombre = "N/A"
 

@@ -52,7 +52,7 @@ document.addEventListener('click', function (e) {
 document.getElementById('searchButton').addEventListener('click', function () {
   const query = searchInput.value.trim();
   if (query) {
-    window.location.href = `/comparar?q=${encodeURIComponent(query)}`;
+    window.location.href = `/index.html?q=${encodeURIComponent(query)}`;
   }
 });
 

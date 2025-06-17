@@ -34,7 +34,7 @@ if response.status_code == 200:
     # Limitar a los primeros 8 productos
     for item in items[:8]:
         try:
-            title = item.select_one('strong.product.name a').text.strip()
+            title = item.select_one('strong.product.name a').text.strip().replace("\"", " ")
         except:
             title = ""
 

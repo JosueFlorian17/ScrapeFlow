@@ -10,7 +10,6 @@
 #include <map>
 
 std::mutex mutex_json;
-
 std::string escaparComillas(const std::string& input) {
     std::string result;
     for (char c : input) {
@@ -19,6 +18,7 @@ std::string escaparComillas(const std::string& input) {
     }
     return result;
 }
+
 
 std::vector<std::map<std::string, std::string>> parsearJSONdePython(const std::string& json) {
     std::vector<std::map<std::string, std::string>> productos;
@@ -99,7 +99,8 @@ int main() {
     std::vector<std::string> scripts = {
         "coolbox.py",
         "efe.py",
-        "lacuracao.py"
+        "lacuracao.py",
+        "plazavea.py"
         // Puedes añadir más como "ripley.py", "plazavea.py", etc.
     };
 
