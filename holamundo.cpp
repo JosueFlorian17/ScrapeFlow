@@ -5,7 +5,6 @@
 #include <vector>
 #include <sstream> //para armar strings paso por paso
 #include <fstream> //I/O en C++
-#include <mutex>  //para secciones críticas, aseguradas de los threads
 #include <cstdio> //manejo de archivos 
 #include <stdio.h>
 #include <Windows.h> //to change, específico de Windows
@@ -14,7 +13,7 @@
 
 using json = nlohmann::json;
 
-std::mutex mutex_json; //lock compartido para todos los threads
+//std::mutex mutex_json; //lock compartido para todos los threads
 std::atomic<int> globalIndex{0};  
 //atomic se encarga de sincronizar, no necesito mutex
 //Conteo de producots procesados
@@ -106,7 +105,7 @@ std::string ejecutarScrapper(const std::string& url) {
 
 int main() {
     //Le indica a OpenMP que cree máximo 2 subprocesos
-    std::int num_pro=2;
+    int num_pro=2;
     omp_set_num_threads(num_pro);
     std::vector<std::string> urls = {
         "https://www.plazavea.com.pe/tecnologia/computo/laptops",
@@ -130,12 +129,12 @@ int main() {
         std::string resultadoJson = ejecutarScrapper(urls[i]);
         
         if (resultadoJson.empty()) {
-            std::cerr << "[Url " << id << "] Error: no se obtuvo JSON\n";
+            std::cerr << "[Url " <<i<< "] Error: no se obtuvo JSON\n";
             continue;
         }
 
         // Guardo el JSON crudo obtenido del url asociado al proceso tid (no deberia ser mejor el asociado al url i??): sí!! ya lo cambié
-        std::ofstream debug("debug_json_" + std::to_string(id) + ".txt");
+        std::ofstream debug("debug_json_" + std::to_string(i) + ".txt");
         debug << resultadoJson;
         debug.close();
 
@@ -194,22 +193,22 @@ int main() {
                 //el pragma omp critical crea una sección protegida automáticamente, SOLO UN THREAD a la vez ejecuta este bloque    
                 #pragma omp critical
                 {
-
+                    todosProductos.insert(todosProductos.end(),productosLocal.begin(),productosLocal.end());
                 }
+            }
 
-        
             //Si el json tiene False en success o no tiene results, entonces se genera un archivo denominado failed_json con el numero de proceso que lo genero (no seri abueno usar el i del url mejor?)
             else {
-                std::cerr << "[Url " << id << "] El scraper no reportó éxito\n";
-                std::ofstream fail("failed_json_" + std::to_string(id) + ".txt");
+                std::cerr << "[Url " <<i<< "] El scraper no reportó éxito\n";
+                std::ofstream fail("failed_json_" + std::to_string(i) + ".txt");
                 fail << resultadoJson;
                 fail.close();
             }
         }
         //Si el try de nolhmann json falla, cualquier error se reporta y el output al file error_json_ con el id del proceso
         catch (const std::exception& e) {
-            std::cerr << "[Url " << id << "] Error: " << e.what() << "\n";
-            std::ofstream error("error_json_" + std::to_string(id) + ".txt");
+            std::cerr << "[Url " <<i<< "] Error: " << e.what() << "\n";
+            std::ofstream error("error_json_" + std::to_string(i) + ".txt");
             error << resultadoJson;
             error.close();
         }
