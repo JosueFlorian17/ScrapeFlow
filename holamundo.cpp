@@ -1,5 +1,6 @@
 #include <iostream>
 #include <omp.h>
+#include <atomic>
 #include <cstdlib>
 #include <vector>
 #include <sstream> //para armar strings paso por paso
@@ -14,7 +15,9 @@
 using json = nlohmann::json;
 
 std::mutex mutex_json; //lock compartido para todos los threads
-int globalIndex = 0;  //Conteo de producots procesados
+std::atomic<int> globalIndex{0};  
+//atomic se encarga de sincronizar, no necesito mutex
+//Conteo de producots procesados
 
 // Helper function 1: Añade un backslash a las comillas dobles. Servirá para los JSON, donde se deben escapar las comillas
 
@@ -142,58 +145,59 @@ int main() {
             json datos = json::parse(resultadoJson);
             
             if (datos["success"] && datos.contains("results")) {
-
-                #pragma omp critical
-                //el pragma omp critical crea una sección protegida automáticamente, SOLO UN THREAD a la vez ejecuta este bloque    
-
-                { //itera sobre cada producto, se asegura que sus resultados sean válidos, y los asigna a variables que luego pasa a la helper generarProductoJSON 
+             //itera sobre cada producto, se asegura que sus resultados sean válidos, y los asigna a variables que luego pasa a la helper generarProductoJSON 
                     //y genera un mini JSON por cada producto
-                   
-                    for (auto& producto : datos["results"]) {
-                        // Manejo seguro de campos nulos
-                        std::string titulo = "Producto sin nombre";
-                        if (producto.contains("title") && !producto["title"].is_null()) {
-                            titulo = producto["title"].get<std::string>();
-                        }
+                //Vecotr local (vive en el hilo)
+                std::vector<std::string> productosLocal;
 
-                        double precio = 0.0;
-                        if (producto.contains("price") && !producto["price"].is_null()) {
-                            if (producto["price"].is_number()) {
-                                precio = producto["price"].get<double>();
-                            }
-                            // Manejar precios como strings
-                            else if (producto["price"].is_string()) {
-                                try {
-                                    precio = std::stod(producto["price"].get<std::string>());
-                                } catch (...) {
-                                    precio = 0.0;
-                                }
-                            }
-                        }
-
-                        std::string imagen = "";
-                        if (producto.contains("image_url") && !producto["image_url"].is_null()) {
-                            imagen = producto["image_url"].get<std::string>();
-                        }
-
-                        std::string urlProducto = "";
-                        if (producto.contains("product_url") && !producto["product_url"].is_null()) {
-                            urlProducto = producto["product_url"].get<std::string>();
-                        }
-
-                        std::string productoJSON = generarProductoJSON(
-                            globalIndex, 
-                            titulo, 
-                            imagen, 
-                            precio, 
-                            urlProducto
-                        );
-                        
-                        todosProductos.push_back(productoJSON);
-                        globalIndex++;
+                for (auto& producto : datos["results"]) {
+                    // Manejo seguro de campos nulos
+                    std::string titulo = "Producto sin nombre";
+                    if (producto.contains("title") && !producto["title"].is_null()) {
+                        titulo = producto["title"].get<std::string>();
                     }
+
+                    double precio = 0.0;
+                    if (producto.contains("price") && !producto["price"].is_null()) {
+                        if (producto["price"].is_number()) {
+                            precio = producto["price"].get<double>();
+                        }
+                        // Manejar precios como strings
+                        else if (producto["price"].is_string()) {
+                            try {
+                                precio = std::stod(producto["price"].get<std::string>());
+                            } catch (...) {
+                                precio = 0.0;
+                            }
+                        }
+                    }
+
+                    std::string imagen = "";
+                    if (producto.contains("image_url") && !producto["image_url"].is_null()) {
+                        imagen = producto["image_url"].get<std::string>();
+                    }
+
+                    std::string urlProducto = "";
+                    if (producto.contains("product_url") && !producto["product_url"].is_null()) {
+                        urlProducto = producto["product_url"].get<std::string>();
+                    }
+
+                    int idx=globalIndex.fetch_add(1, std::memory_order_relaxed);
+                    productosLocal.emplace_back(generarProductoJSON(
+                        idx, 
+                        titulo, 
+                        imagen, 
+                        precio, 
+                        urlProducto
+                    ));   
                 }
-            }
+                //el pragma omp critical crea una sección protegida automáticamente, SOLO UN THREAD a la vez ejecuta este bloque    
+                #pragma omp critical
+                {
+
+                }
+
+        
             //Si el json tiene False en success o no tiene results, entonces se genera un archivo denominado failed_json con el numero de proceso que lo genero (no seri abueno usar el i del url mejor?)
             else {
                 std::cerr << "[Url " << id << "] El scraper no reportó éxito\n";
