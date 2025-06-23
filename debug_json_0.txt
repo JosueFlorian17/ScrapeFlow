@@ -9,13 +9,6 @@
       "domain": "www.plazavea.com.pe"
     },
     {
-      "title": "Laptop LENOVO Ideapad SLIM 3 14IRH8 14\" Intel Core i7-13620H 16GB 512GB SSD",
-      "price": 2629.0,
-      "image_url": "",
-      "product_url": "https://www.plazavea.com.pe/laptop-lenovo-ideapad-slim-3-14irh8-14--intel-core-i713620h-16gb-512gb-ssd/p",
-      "domain": "www.plazavea.com.pe"
-    },
-    {
       "title": "Laptop HP 15-FC0031LA 15.6\" AMD Ryzen 7 7730U 16GB 1TB SSD",
       "price": 2419.0,
       "image_url": "",
@@ -23,45 +16,10 @@
       "domain": "www.plazavea.com.pe"
     },
     {
-      "title": "Laptop LENOVO IdeaPad Slim 3 15AMN8 15.6\" AMD Ryzen 3 7320U 8GB 512GB SSD",
-      "price": 1499.0,
+      "title": "Laptop LENOVO Ideapad SLIM 3 14IRH8 14\" Intel Core i7-13620H 16GB 512GB SSD",
+      "price": 2629.0,
       "image_url": "",
-      "product_url": "https://www.plazavea.com.pe/laptop-lenovo-ideapad-slim-3-15amn8-15-6--amd-ryzen-3-7320u-8gb-512gb-ssd/p",
-      "domain": "www.plazavea.com.pe"
-    },
-    {
-      "title": "Laptop ASUS Vivobook Go 15 E1504FA-NJ391W 15.6\" AMD Ryzen 5 (7000 series) 16GB 512GB SSD",
-      "price": 2199.0,
-      "image_url": "",
-      "product_url": "https://www.plazavea.com.pe/laptop-asus-vivobook-go-15-e1504fanj391w-15-6--amd-ryzen-5-7000-series-16gb-512gb-ssd/p",
-      "domain": "www.plazavea.com.pe"
-    },
-    {
-      "title": "Laptop HP 15-FC0070LA 15.6\" AMD Ryzen 5 (7000 series) 16GB 512GB SSD",
-      "price": 1949.0,
-      "image_url": "",
-      "product_url": "https://www.plazavea.com.pe/laptop-hp-15fc0070la-15-6--amd-ryzen-5-7000-series-16gb-512gb-ssd/p",
-      "domain": "www.plazavea.com.pe"
-    },
-    {
-      "title": "Notebook LENOVO 15IAH8 15.6\" Intel Core i5 12va generación 16GB 512GB SSD",
-      "price": 2199.0,
-      "image_url": "",
-      "product_url": "https://www.plazavea.com.pe/notebook-lenovo-15iah8-15-6--intel-core-i5-12va-generacion-16gb-512gb-ssd/p",
-      "domain": "www.plazavea.com.pe"
-    },
-    {
-      "title": "Laptop ASUS Vivobook Go 15 E1504FA-NJ404W 15.6\" R5 8GB 512GB SSD",
-      "price": 1899.0,
-      "image_url": "",
-      "product_url": "https://www.plazavea.com.pe/laptop-asus-vivobook-go-15-e1504fanj404w-15-6--r5-8gb-512gb-ssd/p",
-      "domain": "www.plazavea.com.pe"
-    },
-    {
-      "title": "Notebook LENOVO Slim 3 15.6\" AMD Ryzen 5 8GB 512GB SSD + Maletín",
-      "price": 1829.0,
-      "image_url": "",
-      "product_url": "https://www.plazavea.com.pe/notebook-lenovo-slim-3-15-6--amd-ryzen-5-8gb-512gb-ssdmaletin/p",
+      "product_url": "https://www.plazavea.com.pe/laptop-lenovo-ideapad-slim-3-14irh8-14--intel-core-i713620h-16gb-512gb-ssd/p",
       "domain": "www.plazavea.com.pe"
     },
     {
@@ -72,17 +30,52 @@
       "domain": "www.plazavea.com.pe"
     },
     {
-      "title": "Laptop ASUS Vivobook 15 X1504ZA-NJ278W 15.6\" Intel Core i5 12va generación 8GB 512GB SSD",
-      "price": 1999.0,
+      "title": "Laptop HP 15-FC0070LA 15.6\" AMD Ryzen 5 (7000 series) 16GB 512GB SSD",
+      "price": 2129.0,
       "image_url": "",
-      "product_url": "https://www.plazavea.com.pe/laptop-asus-vivobook-15-x1504zanj278w-15-6--intel-core-i5-12va-generacion-8gb-512gb-ssd/p",
+      "product_url": "https://www.plazavea.com.pe/laptop-hp-15fc0070la-15-6--amd-ryzen-5-7000-series-16gb-512gb-ssd/p",
       "domain": "www.plazavea.com.pe"
     },
     {
       "title": "Laptop ASUS Vivobook 15 M1502YA-NJ708W 15.6\" AMD Ryzen 7 5825U 16GB 1TB SSD",
-      "price": 2399.0,
+      "price": 2299.0,
       "image_url": "",
       "product_url": "https://www.plazavea.com.pe/laptop-asus-vivobook-15-m1502yanj708w-15-6--amd-ryzen-7-5825u-16gb-1tb-ssd/p",
+      "domain": "www.plazavea.com.pe"
+    },
+    {
+      "title": "Laptop LENOVO Yoga Slim 7 14IMH9 14\" Intel Core Ultra 5 125H 16GB 512GB SSD",
+      "price": 3199.0,
+      "image_url": "",
+      "product_url": "https://www.plazavea.com.pe/laptop-lenovo-yoga-slim-7-14imh9-14--intel-core-ultra-5-125h-16gb-512gb-ssd/p",
+      "domain": "www.plazavea.com.pe"
+    },
+    {
+      "title": "Laptop LENOVO IdeaPad Slim 3 15AMN8 15.6\" AMD Ryzen 3 7320U 8GB 512GB SSD",
+      "price": 1599.0,
+      "image_url": "",
+      "product_url": "https://www.plazavea.com.pe/laptop-lenovo-ideapad-slim-3-15amn8-15-6--amd-ryzen-3-7320u-8gb-512gb-ssd/p",
+      "domain": "www.plazavea.com.pe"
+    },
+    {
+      "title": "Laptop ASUS Vivobook Go 15 E1504FA-NJ391W 15.6\" AMD Ryzen 5 (7000 series) 16GB 512GB SSD",
+      "price": 2149.0,
+      "image_url": "",
+      "product_url": "https://www.plazavea.com.pe/laptop-asus-vivobook-go-15-e1504fanj391w-15-6--amd-ryzen-5-7000-series-16gb-512gb-ssd/p",
+      "domain": "www.plazavea.com.pe"
+    },
+    {
+      "title": "Notebook LENOVO 15IAH8 15.6\" Intel Core i5 12va generación 16GB 512GB SSD",
+      "price": 2199.0,
+      "image_url": "",
+      "product_url": "https://www.plazavea.com.pe/notebook-lenovo-15iah8-15-6--intel-core-i5-12va-generacion-16gb-512gb-ssd/p",
+      "domain": "www.plazavea.com.pe"
+    },
+    {
+      "title": "Laptop ASUS Vivobook 15 X1504ZA-NJ278W 15.6\" Intel Core i5 12va generación 8GB 512GB SSD",
+      "price": 1949.0,
+      "image_url": "",
+      "product_url": "https://www.plazavea.com.pe/laptop-asus-vivobook-15-x1504zanj278w-15-6--intel-core-i5-12va-generacion-8gb-512gb-ssd/p",
       "domain": "www.plazavea.com.pe"
     },
     {
@@ -100,15 +93,22 @@
       "domain": "www.plazavea.com.pe"
     },
     {
-      "title": "Laptop LENOVO Yoga Slim 7 14IMH9 14\" Intel Core Ultra 5 125H 16GB 512GB SSD",
-      "price": 3199.0,
+      "title": "Laptop HP 15-FC0013LA 15.6\" AMD Ryzen 7 (7000 series) 16GB 512GB SSD",
+      "price": 2499.0,
       "image_url": "",
-      "product_url": "https://www.plazavea.com.pe/laptop-lenovo-yoga-slim-7-14imh9-14--intel-core-ultra-5-125h-16gb-512gb-ssd/p",
+      "product_url": "https://www.plazavea.com.pe/laptop-hp-15fc0013la-15-6--amd-ryzen-7-7000-series-16gb-512gb-ssd/p",
+      "domain": "www.plazavea.com.pe"
+    },
+    {
+      "title": "Notebook LENOVO Slim 3 15.6\" AMD Ryzen 5 8GB 512GB SSD + Maletín",
+      "price": 1829.0,
+      "image_url": "",
+      "product_url": "https://www.plazavea.com.pe/notebook-lenovo-slim-3-15-6--amd-ryzen-5-8gb-512gb-ssdmaletin/p",
       "domain": "www.plazavea.com.pe"
     },
     {
       "title": "Laptop ASUS Vivobook Go 15 E1504GA-NJ006W 15.6\" Intel Core i3-N305 8GB 256GB",
-      "price": 1599.0,
+      "price": 1549.0,
       "image_url": "",
       "product_url": "https://www.plazavea.com.pe/laptop-asus-vivobook-go-15-e1504ganj006w-15-6--intel-core-i3n305-8gb-256gb/p",
       "domain": "www.plazavea.com.pe"
@@ -122,7 +122,7 @@
     },
     {
       "title": "Laptop HP 15-FC0071LA 15.6\" AMD Ryzen 5 (7000 series) 8GB 512GB SSD",
-      "price": 1999.0,
+      "price": 1949.0,
       "image_url": "",
       "product_url": "https://www.plazavea.com.pe/laptop-hp-15fc0071la-15-6--amd-ryzen-5-7000-series-8gb-512gb-ssd/p",
       "domain": "www.plazavea.com.pe"
