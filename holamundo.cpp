@@ -96,12 +96,12 @@ int main() {
     omp_set_num_threads(4); // Puedes ajustar esto según tu CPU
 
     // Añade aquí todos los scrapers Python disponibles
+    const std::string base_dir = "scrapers/";
     std::vector<std::string> scripts = {
-        "coolbox.py",
-        "efe.py",
-        "lacuracao.py",
-        "plazavea.py"
-        // Puedes añadir más como "ripley.py", "plazavea.py", etc.
+        base_dir + "coolbox.py",
+        base_dir + "efe.py",
+        base_dir + "lacuracao.py",
+        base_dir + "plazavea.py"
     };
 
     std::vector<std::string> productosTotales;
@@ -121,7 +121,7 @@ int main() {
     }
 
     // Guardar todos los productos en un solo archivo JSON
-    std::ofstream salida("js/productos_generados.json");
+    std::ofstream salida("main/js/productos_generados.json");
     salida << "[\n";
     for (size_t i = 0; i < productosTotales.size(); ++i) {
         salida << productosTotales[i];

@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Webscraping</title>
+  <title>ScraperFlow</title>
 
   <!-- Fuente profesional -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <!-- Íconos -->
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <!-- Estilos -->
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="/buscador/css/style.css" />
 </head>
 <body>
   <!-- Fondo de partículas -->
@@ -23,95 +23,88 @@
     <input type="text" id="searchInput" class="search-box" placeholder="Busca smartphones, laptops, tablets...">
     <div id="suggestions" class="suggestions"></div>
     <div id="loading" class="loading">Cargando sugerencias...</div>
+    
     <button id="searchButton" class="search-button">
       <i class="fas fa-search"></i> Buscar
     </button>
 
+    <p id="mensaje" class="response-message"></p>
   </div>
 
-  <!-- Scripts -->
+  <!-- Partículas -->
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script>
-  particlesJS("particles-js", {
-    particles: {
-      number: {
-        value: 100
-      },
-      color: {
-        value: "#4b33a8"
-      },
-      shape: {
-        type: "circle"
-      },
-      opacity: {
-        value: 0.3
-      },
-      size: {
-        value: 3
-      },
-      line_linked: {
-        enable: true,
-        distance: 120,
-        color: "#4b33a8",
-        opacity: 0.4,
-        width: 1
-      },
-      move: {
-        enable: true,
-        speed: 1.5
-      }
-    },
-    interactivity: {
-      detect_on: "canvas",
-      events: {
-        onhover: {
+  <script>
+    particlesJS("particles-js", {
+      particles: {
+        number: { value: 100 },
+        color: { value: "#4b33a8" },
+        shape: { type: "circle" },
+        opacity: { value: 0.3 },
+        size: { value: 3 },
+        line_linked: {
           enable: true,
-          mode: "repulse"
+          distance: 120,
+          color: "#4b33a8",
+          opacity: 0.4,
+          width: 1
+        },
+        move: {
+          enable: true,
+          speed: 1.5
+        }
+      },
+      interactivity: {
+        detect_on: "canvas",
+        events: {
+          onhover: {
+            enable: true,
+            mode: "repulse"
+          }
         }
       }
-    }
-  });
-  
-</script>
-
-<script>
-  document.getElementById('searchButton').addEventListener('click', function () {
-    const searchTerm = document.getElementById("searchInput").value.trim();
-    const loading = document.getElementById("loading");
-    const suggestions = document.getElementById("suggestions");
-
-    if (!searchTerm) {
-      alert("Por favor, ingresa un término de búsqueda.");
-      return;
-    }
-
-    // Mostrar carga
-    loading.style.display = "block";
-    suggestions.innerHTML = "";
-
-    // Enviar al backend
-    fetch("/guardar", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({ termino: searchTerm })
-    })
-    .then(res => res.text())
-    .then(data => {
-      loading.style.display = "none";
-      suggestions.innerHTML = `<p>${data}</p>`;
-    })
-    .catch(err => {
-      loading.style.display = "none";
-      suggestions.innerHTML = `<p style="color:red;">Error al guardar búsqueda.</p>`;
-      console.error(err);
     });
-  });
-</script>
+  </script>
 
+  <!-- Script para enviar y redirigir -->
+  <script>
+    document.getElementById("searchButton").addEventListener("click", function () {
+      const searchTerm = document.getElementById("searchInput").value.trim();
+      const mensaje = document.getElementById("mensaje");
 
+      if (!searchTerm) {
+        alert("Por favor, escribe un término de búsqueda.");
+        return;
+      }
 
-<script src="js/script.js"></script>
+      fetch("/guardar", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ termino: searchTerm })
+      })
+      .then(res => {
+        if (!res.ok) throw new Error("Error en el servidor");
+        return res.text();
+      })
+      .then(data => {
+        mensaje.textContent = data;
+        mensaje.style.color = "white";
+
+        // ✅ Redirigir directamente a /main/index.html (sin pasar parámetros)
+        setTimeout(() => {
+          window.location.href = "/main/index.html";
+        }, 1000);
+      })
+      .catch(error => {
+        mensaje.textContent = "Error al guardar.";
+        mensaje.style.color = "red";
+        console.error(error);
+      });
+    });
+  </script>
+
+  <!-- Script adicional si lo usas -->
+  <script src="/buscador/js/script.js"></script>
 </body>
 </html>

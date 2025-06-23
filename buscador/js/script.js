@@ -2,7 +2,7 @@ const searchInput = document.getElementById('searchInput');
 const suggestions = document.getElementById('suggestions');
 const loading = document.getElementById('loading');
 
-// Autocompletado
+// Autocompletado (puede eliminarse si no lo necesitas)
 searchInput.addEventListener('input', async function () {
   const query = this.value.trim();
 
@@ -48,14 +48,15 @@ document.addEventListener('click', function (e) {
   }
 });
 
-// Búsqueda con botón o Enter
-document.getElementById('searchButton').addEventListener('click', function () {
-  const query = searchInput.value.trim();
-  if (query) {
-    window.location.href = `/index.html?q=${encodeURIComponent(query)}`;
-  }
-});
+// 🔻 ❌ Eliminamos esta redirección conflictiva:
+// document.getElementById('searchButton').addEventListener('click', function () {
+//   const query = searchInput.value.trim();
+//   if (query) {
+//     window.location.href = `/index.html?q=${encodeURIComponent(query)}`;
+//   }
+// });
 
+// Mantenemos enter como disparador del botón, pero no redireccionamos
 searchInput.addEventListener('keypress', function (e) {
   if (e.key === 'Enter') {
     document.getElementById('searchButton').click();

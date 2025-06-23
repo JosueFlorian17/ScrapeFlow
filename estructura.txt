@@ -1,0 +1,62 @@
+├── ScrapeFlow/
+│   └── lacuracao.py
+│   └── ejecutablefinal
+│   └── json.hpp
+│   └── carrito.html
+│   └── efe.py
+│   └── scrape3
+│   └── ejecutor
+│   └── scrape4
+│   └── scrape2
+│   └── app.py
+│   └── README.md
+│   └── estructura.txt
+│   └── holamundo.cpp
+│   └── probando.html
+│   └── urls.txt
+│   └── hola.py
+│   └── guardar_estructura.py
+│   └── scrape
+│   └── coolbox.py
+│   └── plazavea.py
+│   └── finalfinal
+│   ├── buscador/
+│   │   └── index.html
+│   │   ├── js/
+│   │   │   └── script.js
+│   │   │   └── particles.js
+│   │   ├── css/
+│   │   │   └── style.css
+│   ├── scrapers/
+│   ├── main/
+│   │   └── index.html
+│   │   ├── js/
+│   │   │   └── productos_generados.json
+│   │   │   └── productos.json
+│   │   │   └── carrito.js
+│   │   │   └── main.js
+│   │   │   └── menu.js
+│   │   ├── css/
+│   │   │   └── main.css
+│   │   ├── img/
+│   │   │   ├── camisetas/
+│   │   │   │   └── 05.jpg
+│   │   │   │   └── 06.jpg
+│   │   │   │   └── 04.jpg
+│   │   │   │   └── 01.jpg
+│   │   │   │   └── 02.jpg
+│   │   │   │   └── 03.jpg
+│   │   │   │   └── 08.jpg
+│   │   │   │   └── 07.jpg
+│   │   │   ├── pantalones/
+│   │   │   │   └── 05.jpg
+│   │   │   │   └── 04.jpg
+│   │   │   │   └── 01.jpg
+│   │   │   │   └── 02.jpg
+│   │   │   │   └── 03.jpg
+│   │   │   ├── abrigos/
+│   │   │   │   └── 05.jpg
+│   │   │   │   └── 04.jpg
+│   │   │   │   └── 01.jpg
+│   │   │   │   └── 02.jpg
+│   │   │   │   └── 03.jpg
