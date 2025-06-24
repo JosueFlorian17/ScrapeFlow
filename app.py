@@ -34,14 +34,16 @@ def guardar():
 
     urls = {
         "Ripley": f"https://simple.ripley.com.pe/search/{encoded_term}?sort=relevance_desc&page=1",
-        "Promart": f"https://www.promart.pe/{dash_term}?ft={encoded_term}",
         "Metro": f"https://www.metro.pe/{encoded_term}?_q={encoded_term}&map=ft",
-        "Falabella": f"https://www.falabella.com.pe/falabella-pe/search?Ntt={encoded_term}",
+        "Falabella": f"https://www.falabella.com.pe/falabella-pe/collection/{dash_term}",
         "Efe": f"https://www.efe.com.pe/catalogsearch/result/?q={encoded_term}",
         "La Curacao": f"https://www.lacuracao.pe/catalogsearch/result/?q={encoded_term}",
         "Coolbox": f"https://www.coolbox.pe/{encoded_term}?_q={encoded_term}&map=ft",
         "Hiraoka": f"https://hiraoka.com.pe/gpsearch/?q={encoded_term}",
-        "Plaza Vea": f"https://www.plazavea.com.pe/busca/?fq=C:679/686/917&ft={encoded_term}"
+        "Plaza Vea": f"https://www.plazavea.com.pe/busca/?fq=C:679/686/917&ft={encoded_term}",
+        "Mercado Libre": f"https://listado.mercadolibre.com.pe/{dash_term}?sb=all_mercadolibre#D[A:{encoded_term}]",
+        "PcFactory": f"https://www.pcfactory.com.pe/busqueda_avanzada?query={encoded_term}",
+        "Linio": f"https://linio.falabella.com.pe/linio-pe/search?Ntt={encoded_term}"
     }
 
     with open("urls.txt", "w", encoding="utf-8") as f:
@@ -51,7 +53,7 @@ def guardar():
 
     # ✅ Ejecutar el binario scraperfinal
     try:
-        subprocess.run(["./scraperfinal"], check=True)
+        subprocess.run(["./scraperfinal3"], check=True)
     except Exception as e:
         return f"❌ Error al ejecutar scraperfinal: {str(e)}", 500
 

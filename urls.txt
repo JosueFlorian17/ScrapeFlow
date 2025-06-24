@@ -1,11 +1,13 @@
-🔍 URLs generadas para: silla gamer
+🔍 URLs generadas para: poco x7
 
-Ripley: https://simple.ripley.com.pe/search/silla%20gamer?sort=relevance_desc&page=1
-Promart: https://www.promart.pe/silla-gamer?ft=silla%20gamer
-Metro: https://www.metro.pe/silla%20gamer?_q=silla%20gamer&map=ft
-Falabella: https://www.falabella.com.pe/falabella-pe/search?Ntt=silla%20gamer
-Efe: https://www.efe.com.pe/catalogsearch/result/?q=silla%20gamer
-La Curacao: https://www.lacuracao.pe/catalogsearch/result/?q=silla%20gamer
-Coolbox: https://www.coolbox.pe/silla%20gamer?_q=silla%20gamer&map=ft
-Hiraoka: https://hiraoka.com.pe/gpsearch/?q=silla%20gamer
-Plaza Vea: https://www.plazavea.com.pe/busca/?fq=C:679/686/917&ft=silla%20gamer
+Ripley: https://simple.ripley.com.pe/search/poco%20x7?sort=relevance_desc&page=1
+Metro: https://www.metro.pe/poco%20x7?_q=poco%20x7&map=ft
+Falabella: https://www.falabella.com.pe/falabella-pe/collection/poco-x7
+Efe: https://www.efe.com.pe/catalogsearch/result/?q=poco%20x7
+La Curacao: https://www.lacuracao.pe/catalogsearch/result/?q=poco%20x7
+Coolbox: https://www.coolbox.pe/poco%20x7?_q=poco%20x7&map=ft
+Hiraoka: https://hiraoka.com.pe/gpsearch/?q=poco%20x7
+Plaza Vea: https://www.plazavea.com.pe/busca/?fq=C:679/686/917&ft=poco%20x7
+Mercado Libre: https://listado.mercadolibre.com.pe/poco-x7?sb=all_mercadolibre#D[A:poco%20x7]
+PcFactory: https://www.pcfactory.com.pe/busqueda_avanzada?query=poco%20x7
+Linio: https://linio.falabella.com.pe/linio-pe/search?Ntt=poco%20x7
