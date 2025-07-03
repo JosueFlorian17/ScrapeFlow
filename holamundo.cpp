@@ -1,15 +1,14 @@
 #include <iostream>
-#include <omp.h>
-#include <atomic>
-#include <cstdlib>
 #include <vector>
-#include <sstream> //para armar strings paso por paso
-#include <fstream> //I/O en C++
-#include <cstdio> //manejo de archivos 
-#include <stdio.h>
-#include <Windows.h> //to change, específico de Windows
-#include <direct.h>
-#include <nlohmann/json.hpp> // Para parsear JSON
+#include <omp.h>   // OpenMP
+#include <atomic> //std::atomic<int>
+#include <sstream> // std::ostringstream                     para armar strings paso por paso
+#include <fstream> // // std::ofstream                         I/O en C++
+#include <cstdio> // // FILE*, _popen, _pclose, fgets                   manejo de archivos 
+#include <nlohmann/json.hpp> // nlohmann::json              Para parsear JSON
+#include <Windows.h>                 //to change, específico de Windows
+#include <direct.h>       // _mkdir
+#include <cstdlib>
 
 using json = nlohmann::json;
 
