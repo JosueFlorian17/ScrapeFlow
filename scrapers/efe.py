@@ -70,11 +70,11 @@ if response.status_code == 200:
         "results": results
     }
 
-    print(json.dumps(output, indent=2, ensure_ascii=False))
+    print(json.dumps(output, indent=2, ensure_ascii=True))
 
 else:
     print(json.dumps({
         "success": False,
         "results": [],
         "error": f"Error al cargar la página: {response.status_code}"
-    }, indent=2, ensure_ascii=False))
+    }, indent=2, ensure_ascii=True))

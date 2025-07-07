@@ -55,10 +55,10 @@ def scrape_ripley(url):
             image_url = img_el.get_attribute('src')
             domain = urlparse(product_url).netloc
             results.append({
-                'title': title,
-                'price': price,
-                'image_url': image_url,
-                'product_url': product_url,
+                'titulo': title,
+                'precio': price,
+                'imagen': image_url,
+                'url': product_url,
                 'domain': domain
             })
         except Exception:
@@ -87,7 +87,7 @@ def main():
     output = {
         'results': items
     }
-    print(json.dumps(output, ensure_ascii=False, indent=2))
+    print(json.dumps(output, ensure_ascii=True, indent=2))
 
 
 if __name__ == '__main__':

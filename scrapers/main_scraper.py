@@ -21,7 +21,7 @@ def main():
         results = scraper.scrape_search_results(url, selectors)
 
         # Imprimir solo la lista de productos como JSON puro
-        json.dump(results, sys.stdout, ensure_ascii=False, indent=2)
+        json.dump(results, sys.stdout, ensure_ascii=True, indent=2)
 
     except Exception as e:
         print(f"❌ Error al procesar la URL: {e}", file=sys.stderr)

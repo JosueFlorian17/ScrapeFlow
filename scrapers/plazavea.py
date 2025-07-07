@@ -15,20 +15,6 @@ import io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
-# Leer URL desde urls.txt
-nombre_tienda = "Plaza Vea"
-url = None
-
-with open("urls.txt", "r", encoding="utf-8") as f:
-    for linea in f:
-        if linea.startswith(f"{nombre_tienda}:"):
-            url = linea.split(":", 1)[1].strip()
-            break
-
-if not url:
-    print(f"No se encontró la URL para {nombre_tienda} en urls.txt")
-    exit()
-
 def init_driver():
     options = Options()
     options.add_argument('--headless')
@@ -73,10 +59,27 @@ def scrape_plazavea(url):
     return results
 
 def main():
+
+    # Leer URL desde urls.txt
+    nombre_tienda = "Plaza Vea"
+    url = None
+
+    with open("urls.txt", "r", encoding="utf-8") as f:
+        for linea in f:
+            if linea.startswith(f"{nombre_tienda}:"):
+                url = linea.split(":", 1)[1].strip()
+                break
+
+    if not url:
+        print(f"No se encontró la URL para {nombre_tienda} en urls.txt")
+        exit()
+
     items = scrape_plazavea(url)
-    for i, item in enumerate(items):
-        print(json.dumps(item, ensure_ascii=False))
-    # Nota: No se imprime lista, solo objetos JSON individuales
+    output = {
+        'results': items
+    }
+    print(json.dumps(output, ensure_ascii=True, indent=2))
+
 
 if __name__ == '__main__':
     main()

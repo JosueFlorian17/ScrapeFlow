@@ -77,4 +77,4 @@ for i in range(1, 9):
 driver.quit()
 
 # Imprimir productos como JSON
-print(json.dumps(productos, ensure_ascii=False, indent=2))
+print(json.dumps(productos, ensure_ascii=True, indent=2))
