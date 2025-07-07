@@ -61,47 +61,53 @@ std::string generarProductoJSON(int index, const std::string& titulo,
     return producto.str();
 }
 
-// Helper function 3: Recibe una url, y en base a su dominio, elije el scraper de python a ejecutar
-// Obtiene el output del scraper python (un JSON de forma {"success":true,"results":[ … ]}) y lo retorna
-std::string ejecutarScrapper(const std::string& url) {
-    std::string comando;
-    char buffer[1024];
-    GetCurrentDirectoryA(sizeof(buffer), buffer);
-    std::string currentDir(buffer);
-
-    if (url.find("plazavea.com.pe") != std::string::npos) {
-        // se colocan entre comillas por si acaso haya espacios en el path
-        comando = "python \"" + currentDir + "\\scrapper_plaza_vea.py\" \"" + url + "\"";
-    } else if (url.find("ripley.com.pe") != std::string::npos) {
-        comando = "python \"" + currentDir + "\\scrapper_ripley.py\" \"" + url + "\"";
-    } else {
-        std::cerr << "URL no reconocida: " << url << std::endl;
-        return "";
-    }
-
-    std::string resultado;
-    // definir el tamaño de chunk a leer
-    char pipeBuffer[4096];
-    // Inicia el comando, y retorna un pipe que permite que c++ lea todo lo que el script de python imprima
-    FILE* pipe = _popen(comando.c_str(), "r");
+std::vector<std::map<std::string, std::string>> ejecutarScraper(const std::string& script) {
+    std::string comando = "python3 " + script;
+    FILE* pipe = popen(comando.c_str(), "r");
+    std::vector<std::map<std::string, std::string>> productos;
 
     if (!pipe) {
-        std::cerr << "Error al ejecutar: " << comando << std::endl;
-        return "";
+        std::cerr << "❌ Error al ejecutar: " << script << std::endl;
+        return productos;
     }
-    // Lee chunks de 4kb hasta que el programa de python temrina de imprimir y los pega en la variable resultado
-    while (fgets(pipeBuffer, sizeof(pipeBuffer), pipe)) {
-        resultado += pipeBuffer;
+
+    char buffer[2048];
+    std::string salidaTotal;
+
+    while (fgets(buffer, sizeof(buffer), pipe)) {
+        salidaTotal += buffer;
     }
-    // Cierra el pipe y obtiene su status de exito. Debe ser 0, sino es porque el Python script falló
-    int exitCode = _pclose(pipe);
-    if (exitCode != 0) {
-        std::cerr << "Scrapper falló con código: " << exitCode << std::endl;
-    }
-    //Retorna el json string de forma {"success":true,"results":[ … ]} que produce el scraper python
-    return resultado;
+    pclose(pipe);
+
+    return parsearJSONdePython(salidaTotal);
 }
-// Helper function 4: Lee un archivo de texto, obtiene las URLs que contienen "http" y las retorna en un vector de strings
+
+
+std::vector<std::map<std::string, std::string>> ejecutarMainScraperConURL(const std::string& url) {
+    std::vector<std::map<std::string, std::string>> productos;
+    std::string comando = "python3 scrapers/main_scraper.py \"" + url + "\"";
+    FILE* pipe = popen(comando.c_str(), "r");
+
+    if (!pipe) {
+        std::cerr << "❌ Error al ejecutar main_scraper.py con URL: " << url << std::endl;
+        return productos;
+    }
+
+    char buffer[2048];
+    std::string salidaTotal;
+
+    while (fgets(buffer, sizeof(buffer), pipe)) {
+        salidaTotal += buffer;
+    }
+    pclose(pipe);
+
+    return parsearJSONdePython(salidaTotal);
+}
+
+
+
+
+// Helper function 5: Lee un archivo de texto, obtiene las URLs que contienen "http" y las retorna en un vector de strings
 // Si una URL contiene un dominio excluido, se ignora esa URL (porque se ejecuta su scrapper aparte)
 std::vector<std::string> obtenerURLsDesdeArchivo(const std::string& archivo, const std::vector<std::string>& dominios_excluidos) {
     std::vector<std::string> urls;
@@ -160,7 +166,14 @@ int main() {
         std::cout << "[Hilo " << tid << "] Procesando URL: " << urls[i] << std::endl;
 
         //La url i se pasa a la funcion helper ejecutarScrapper, que devuelve el json de ese scraper python
-        std::string resultadoJson = ejecutarScrapper(urls[i]);
+        if (i < static_cast<int>(scripts.size())) {
+            std::cout << "[🧵 Hilo " << tid << "] Ejecutando script: " << scripts[i] << std::endl;
+            resultadoJson = ejecutarScraper(scripts[i]);
+        } else {
+            std::string url = urls[i - scripts.size()];
+            std::cout << "[🧵 Hilo " << tid << "] Ejecutando main_scraper.py con URL: " << url << std::endl;
+            resultadoJson = ejecutarMainScraperConURL(url);
+        }
         
         if (resultadoJson.empty()) {
             std::cerr << "[Url " <<i<< "] Error: no se obtuvo JSON\n";
@@ -177,7 +190,7 @@ int main() {
             // Proceso con nlohmann::json el JSON crudo 
             json datos = json::parse(resultadoJson);
             
-            if (datos["success"] && datos.contains("results")) {
+            if (datos.contains("results")) {
              //itera sobre cada producto, se asegura que sus resultados sean válidos, y los asigna a variables que luego pasa a la helper generarProductoJSON 
                     //y genera un mini JSON por cada producto
                 //Vecotr local (vive en el hilo)
