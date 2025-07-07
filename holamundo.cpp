@@ -185,72 +185,78 @@ int main() {
         debug.close();
 
         try {
-
             // Proceso con nlohmann::json el JSON crudo 
             json datos = json::parse(resultadoJson);
-            
-            if (datos.contains("results")) {
-             //itera sobre cada producto, se asegura que sus resultados sean válidos, y los asigna a variables que luego pasa a la helper generarProductoJSON 
-                    //y genera un mini JSON por cada producto
-                //Vecotr local (vive en el hilo)
-                std::vector<std::string> productosLocal;
+            json listaProductos;
 
-                for (auto& producto : datos["results"]) {
-                    // Manejo seguro de campos nulos
-                    std::string titulo = "Producto sin nombre";
-                    if (producto.contains("title") && !producto["title"].is_null()) {
-                        titulo = producto["title"].get<std::string>();
-                    }
+            // 1. Si viene un objeto con clave "results" y es un array
+            if (datos.is_object() && datos.contains("results") && datos["results"].is_array()) {
+                listaProductos = datos["results"];
+            }
+            // 2. …sino, si el JSON **es** directamente un array
+            else if (datos.is_array()) {
+                listaProductos = datos;
+            }
+            // 3. …sino, si viene un solo objeto, conviértelo en array de uno
+            else if (datos.is_object()) {
+                listaProductos = json::array({datos});
+            }
+            // 4. Si no es ni objeto ni array, lo descartas
+            else {
+                std::cerr << "[Url " << i << "] JSON no iterable, saltando\n";
+                continue;
+            }
+            std::vector<std::string> productosLocal;
 
-                    double precio = 0.0;
-                    if (producto.contains("price") && !producto["price"].is_null()) {
-                        if (producto["price"].is_number()) {
-                            precio = producto["price"].get<double>();
-                        }
-                        // Manejar precios como strings
-                        else if (producto["price"].is_string()) {
-                            try {
-                                precio = std::stod(producto["price"].get<std::string>());
-                            } catch (...) {
-                                precio = 0.0;
-                            }
-                        }
-                    }
-
-                    std::string imagen = "";
-                    if (producto.contains("image_url") && !producto["image_url"].is_null()) {
-                        imagen = producto["image_url"].get<std::string>();
-                    }
-
-                    std::string urlProducto = "";
-                    if (producto.contains("product_url") && !producto["product_url"].is_null()) {
-                        urlProducto = producto["product_url"].get<std::string>();
-                    }
-
-                    int idx=globalIndex.fetch_add(1, std::memory_order_relaxed);
-                    productosLocal.emplace_back(generarProductoJSON(
-                        idx, 
-                        titulo, 
-                        imagen, 
-                        precio, 
-                        urlProducto
-                    ));   
+            for (auto& producto : listaProductos) {
+                // Manejo seguro de campos nulos
+                std::string titulo = "Producto sin nombre";
+                if (producto.contains("title") && !producto["title"].is_null()) {
+                    titulo = producto["title"].get<std::string>();
                 }
-                //el pragma omp critical crea una sección protegida automáticamente, SOLO UN THREAD a la vez ejecuta este bloque    
-                #pragma omp critical
-                {
-                    todosProductos.insert(todosProductos.end(),productosLocal.begin(),productosLocal.end());
+
+                double precio = 0.0;
+                if (producto.contains("price") && !producto["price"].is_null()) {
+                    if (producto["price"].is_number()) {
+                        precio = producto["price"].get<double>();
+                    }
+                    // Manejar precios como strings
+                    else if (producto["price"].is_string()) {
+                        try {
+                            precio = std::stod(producto["price"].get<std::string>());
+                        } catch (...) {
+                            precio = 0.0;
+                        }
+                    }
+                }
+
+                std::string imagen = "";
+                if (producto.contains("image_url") && !producto["image_url"].is_null()) {
+                    imagen = producto["image_url"].get<std::string>();
+                }
+
+                std::string urlProducto = "";
+                if (producto.contains("product_url") && !producto["product_url"].is_null()) {
+                    urlProducto = producto["product_url"].get<std::string>();
+                }
+
+                int idx=globalIndex.fetch_add(1, std::memory_order_relaxed);
+                productosLocal.emplace_back(generarProductoJSON(
+                    idx, 
+                    titulo, 
+                    imagen, 
+                    precio, 
+                    urlProducto
+                ));   
+                }
+            //el pragma omp critical crea una sección protegida automáticamente, SOLO UN THREAD a la vez ejecuta este bloque    
+            #pragma omp critical
+            {
+                todosProductos.insert(todosProductos.end(),productosLocal.begin(),productosLocal.end());
                 }
             }
 
             //Si el json tiene False en success o no tiene results, entonces se genera un archivo denominado failed_json con el numero de proceso que lo genero (no seri abueno usar el i del url mejor?)
-            else {
-                std::cerr << "[Url " <<i<< "] El scraper no reportó éxito\n";
-                std::ofstream fail("failed_json_" + std::to_string(i) + ".txt");
-                fail << resultadoJson;
-                fail.close();
-            }
-        }
         //Si el try de nolhmann json falla, cualquier error se reporta y el output al file error_json_ con el id del proceso
         catch (const std::exception& e) {
             std::cerr << "[Url " <<i<< "] Error: " << e.what() << "\n";
