@@ -1,0 +1,340 @@
+{
+  "results": [
+    {
+      "titulo": "CELULAR XIAOMI POCO X7 PRO 512GB 12GB 50MP + 8MP 6.67\" BLACK",
+      "precio": 1.459,
+      "imagen": "https://static.ripley.com.pe/images/no-picture.svg",
+      "url": "https://simple.ripley.com.pe/celular-xiaomi-poco-x7-pro-512gb-12gb-50mp-8mp-667-black-pmp20000726881?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "CELULAR POCO X7 PRO 5G 2412DPC0AG 512GB 12GB RAM 50 MP 6.67\" DUAL SIM NEGRO 6000MAH",
+      "precio": 1.439,
+      "imagen": "https://static.ripley.com.pe/images/no-picture.svg",
+      "url": "https://simple.ripley.com.pe/celular-poco-x7-pro-5g-2412dpc0ag-512gb-12gb-ram-50-mp-667-dual-sim-negro-6000mah-pmp20000735657?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "CELULAR XIAOMI POCO X7 PRO 512GB 12GB 50 MP 6.67\" YELLOW",
+      "precio": 1.749,
+      "imagen": "https://static.ripley.com.pe/images/no-picture.svg",
+      "url": "https://simple.ripley.com.pe/celular-xiaomi-poco-x7-pro-512gb-12gb-50-mp-667-yellow-pmp20000744473?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "POCO X7 PRO 512GB 12GB - VERDE",
+      "precio": 1.539,
+      "imagen": "https://static.ripley.com.pe/images/no-picture.svg",
+      "url": "https://simple.ripley.com.pe/poco-x7-pro-512gb-12gb-verde-pmp20000810227?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "POCO X7 PRO 512GB 12GB - AMARILLO",
+      "precio": 1.529,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/poco-x7-pro-512gb-12gb-amarillo-pmp20000874956?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA HONOR X7",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-honor-x7-pmp20000920144?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA HONOR X7",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-honor-x7-pmp20000920063?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA HONOR X7",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-honor-x7-pmp20000919640?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA POCO X7 PRO",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-poco-x7-pro-pmp20000885704?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "AUD\u00cdFONOS HONOR INAL\u00c1MBRICO BUNDLE HONOR CHOICE X7I BLUETOOTH + HONOR BAND 9 BLACK",
+      "precio": 249.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/audifonos-honor-inalambrico-bundle-honor-choice-x7i-bluetooth-honor-band-9-black-2065353644668p?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA HONOR X7",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-honor-x7-pmp20000919294?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "CELULAR HONOR X7C ALT-LX3 256GB 8GB RAM 108X2MP 6.7 \" MIDNIGHT BLACK",
+      "precio": 749.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/celular-honor-x7c-alt-lx3-256gb-8gb-ram-108x2mp-67-midnight-black-2065352443453p?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "POCO X7 PRO 512GB 12GB - VERDE",
+      "precio": 1.529,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/poco-x7-pro-512gb-12gb-verde-pmp20000874959?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA HONOR X7",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-honor-x7-pmp20000919053?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA POCO X7 PRO",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-poco-x7-pro-pmp20000885576?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "CELULAR HONOR X7C ALT-LX3 256GB 8GB RAM 108X2MP 6.7 \" FOREST GREEN",
+      "precio": 749.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/celular-honor-x7c-alt-lx3-256gb-8gb-ram-108x2mp-67-forest-green-2065352443446p?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA POCO X7 PRO",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-poco-x7-pro-pmp20000885726?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "JUEGO DID\u00c1CTICO PLANTADO X7 OJITOS",
+      "precio": 6590.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/juego-didactico-plantado-x7-ojitos-pmp20000735078?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "CELULAR HONOR X7C ALT-LX3 256GB 8GB RAM 108X2MP 6.7 \" MOONLIGHT WHITE",
+      "precio": 749.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/celular-honor-x7c-alt-lx3-256gb-8gb-ram-108x2mp-67-moonlight-white-2065352443439p?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA HONOR X7",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-honor-x7-pmp20000919858?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA POCO X7 PRO",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-poco-x7-pro-pmp20000886072?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "ZAPATOS DE VESTIR MUJER SCHUTZ GUINDA S221470001.0011U.X29V1.X7",
+      "precio": 57990.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/zapatos-de-vestir-mujer-schutz-guinda-s2214700010011ux29v1x7-2026359473898?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA HONOR X7",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-honor-x7-pmp20000920503?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "MOUSE GAMER WEIBO X7 RGB ILUMINACION LED 3200 DPI CABLE 1.8M",
+      "precio": 50.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/mouse-gamer-weibo-x7-rgb-iluminacion-led-3200-dpi-cable-18m-pmp00002016617?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA POCO X7 PRO",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-poco-x7-pro-pmp20000885767?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "SET FIGURAS PAW PATROL 6071499 X7 AIR RESCUE",
+      "precio": 11990.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/set-figuras-paw-patrol-6071499-x7-air-rescue-2032352608458p?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA POCO X7 PRO",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-poco-x7-pro-pmp20000885823?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA POCO X7 PRO",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-poco-x7-pro-pmp20000885929?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "BICICLETA MOUNTAIN BIKE TRINX X7 ARO 29 VERDE CLARO MTB HIDRAULICA TALLA S-15",
+      "precio": 2.279,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/bicicleta-mountain-bike-trinx-x7-aro-29-verde-claro-mtb-hidraulica-talla-s-15-pmp00003304394?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA POCO X7 PRO",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-poco-x7-pro-pmp20000886107?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "PACK X7 CALZONCILLO BIKINI CL\u00c1SICO ALGOD\u00d3N HOMBRE CLOVER",
+      "precio": 87.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/pack-x7-calzoncillo-bikini-clasico-algodon-hombre-clover-2006348593554?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA POCO X7 PRO",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-poco-x7-pro-pmp20000885845?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA POCO X7 PRO",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-poco-x7-pro-pmp20000885515?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "CASE GAMER 1STPLAYER FB-X7 NEGRO",
+      "precio": 33790.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/case-gamer-1stplayer-fb-x7-negro-pmp20000051125?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA HONOR X7",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-honor-x7-pmp20000920110?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "SNACK PERROS DINGO RAZA PEQUE\u00d1A SABOR POLLO BOLSA MINI HUESOS DE POLLO X7 UND",
+      "precio": 2790.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/snack-perros-dingo-raza-pequena-sabor-pollo-bolsa-mini-huesos-de-pollo-x7-und-pmp00002950575?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA POCO X7 PRO",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-poco-x7-pro-pmp20000885804?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA POCO X7 PRO",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-poco-x7-pro-pmp20000885705?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "RECTIFICADORA CILINDROS DE MOTOR 2 X7 TRUPER 14533",
+      "precio": 13990.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/rectificadora-cilindros-de-motor-2-x7-truper-14533-pmp00001832921?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA POCO X7 PRO",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-poco-x7-pro-pmp20000886109?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "SNACK PERROS DINGO RAZA PEQUE\u00d1A SABOR POLLO BOLSA NTAL MINI HUESOS DE POLLO X7 UND",
+      "precio": 3190.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/snack-perros-dingo-raza-pequena-sabor-pollo-bolsa-ntal-mini-huesos-de-pollo-x7-und-pmp00002950583?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA HONOR X7",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-honor-x7-pmp20000919063?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "BICICLETA MOUNTAIN BIKE TRINX X7 ARO 29 ROJO MTB HIDRAULICA TALLA S-15",
+      "precio": 2.279,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/bicicleta-mountain-bike-trinx-x7-aro-29-rojo-mtb-hidraulica-talla-s-15-pmp00003303124?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA POCO X7 PRO",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-poco-x7-pro-pmp20000885831?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA POCO X7 PRO",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-poco-x7-pro-pmp20000885618?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "PORTADOCUMENTOS DE L\u00cdNEA PLEGABLE 12' X2\u20131/2' X7\u20131/2' NEGRO BLANCO",
+      "precio": 299.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/portadocumentos-de-linea-plegable-12-x212-x712-negro-blanco-pmp00001600624?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "FUNDA PROTECTOR CASE PARA POCO X7 PRO",
+      "precio": 36.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/funda-protector-case-para-poco-x7-pro-pmp20000885954?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    },
+    {
+      "titulo": "PAQUETE S70 Y X70",
+      "precio": 399.0,
+      "imagen": null,
+      "url": "https://simple.ripley.com.pe/paquete-s70-y-x70-pmp00001479014?sein=poco%20x7",
+      "domain": "simple.ripley.com.pe"
+    }
+  ]
+}

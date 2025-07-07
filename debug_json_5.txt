@@ -1,0 +1,4 @@
+Dominio consultado:  www.metro.pe
+Pocos productos encontrados. Pasando a Selenium
+No hay más páginas.
+[]

@@ -1,0 +1,53 @@
+{
+  "success": true,
+  "results": [
+    {
+      "titulo": "Celular Xiaomi Poco x7 256GB 8GB 6.67  Silver",
+      "precio": "S/\u00a01,149.00",
+      "imagen": "https://www.lacuracao.pe/media/catalog/product/p/o/pocox7256gbsilv_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+      "url": "https://www.lacuracao.pe/xiaomi-poco-x7-256gb-8gb-50mp-8mp-2mp-pocox7256gbsilv.html"
+    },
+    {
+      "titulo": "Celular Xiaomi Poco X7 Pro 512GB 12GB 6.67  Amarillo",
+      "precio": "S/\u00a01,469.00",
+      "imagen": "https://www.lacuracao.pe/media/catalog/product/p/o/pocox7pro512yel_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+      "url": "https://www.lacuracao.pe/catalog/product/view/id/301123/s/poco-x7-pro-512gb-12gb-yellow-pocox7pro512yel/category/2/"
+    },
+    {
+      "titulo": "Celular Xiaomi Poco x7 256GB 8GB 6.67  Verde",
+      "precio": "S/\u00a01,149.00",
+      "imagen": "https://www.lacuracao.pe/media/catalog/product/p/o/pocox7256gbgree_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+      "url": "https://www.lacuracao.pe/xiaomi-poco-x7-256gb-8gb-50mp-8mp-2mp-pocox7256gbgree.html"
+    },
+    {
+      "titulo": "Celular Xiaomi Poco X7 Pro 512GB 12GB 6.67  Negro",
+      "precio": "S/\u00a01,449.00",
+      "imagen": "https://www.lacuracao.pe/media/catalog/product/p/o/pocox7pro512blk_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+      "url": "https://www.lacuracao.pe/poco-x7-pro-512gb-12gb-black-pocox7pro512blk.html"
+    },
+    {
+      "titulo": "Extender HDMI x RJ45 UTP 30MT Netcom",
+      "precio": "S/\u00a0339.00",
+      "imagen": "https://www.lacuracao.pe/media/catalog/product/s/1/s1341_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+      "url": "https://www.lacuracao.pe/extender-hdmi-x-rj45-utp-30-mts-netcom-s1341.html"
+    },
+    {
+      "titulo": "Extender HDMI x  RJ45 UTP 60MT Netcom",
+      "precio": "S/\u00a0409.00",
+      "imagen": "https://www.lacuracao.pe/media/catalog/product/s/1/s1342_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+      "url": "https://www.lacuracao.pe/extender-hdmi-x-rj45-utp-60-mts-netcom-s1342.html"
+    },
+    {
+      "titulo": "Celular Xiaomi Poco x7 512GB 12GB 6.67  Verde",
+      "precio": "S/\u00a01,319.00",
+      "imagen": "https://www.lacuracao.pe/media/catalog/product/p/o/pocox7512gbgree_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+      "url": "https://www.lacuracao.pe/xiaomi-poco-x7-512gb-12gb-50mp-8mp-2mp-pocox7512gbgree.html"
+    },
+    {
+      "titulo": "Celular Xiaomi Poco x7 512GB 12GB 6.67  Negro",
+      "precio": "S/\u00a01,319.00",
+      "imagen": "https://www.lacuracao.pe/media/catalog/product/p/o/pocox7512gbblk_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=400&width=400&canvas=400:400",
+      "url": "https://www.lacuracao.pe/xiaomi-poco-x7-512gb-12gb-50mp-8mp-2mp-pocox7512gbblk.html"
+    }
+  ]
+}

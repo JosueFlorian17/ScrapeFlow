@@ -1,0 +1,26 @@
+[
+  {
+    "titulo": "Celular Xiaomi POCO X7 Pro 5G 512GB, 12GB RAM, c\u00e1mara principal 50MP + 8MP, frontal 20MP, 6.67 , negro",
+    "precio": "S/2,269.00",
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/461833-300-300?v=638854328642430000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/xiaomi-poco-x7-pro-5g-512gb-12gb-ram-camara-principal-50mp-8mpx-frontal-20mpx-6-67--negro-100430431/p"
+  },
+  {
+    "titulo": "Celular Xiaomi POCO X7 5G 512GB, 12GB RAM, c\u00e1mara principal 50MP+8MP+2MP, frontal 20MP, 6.67 , silver",
+    "precio": "S/1,809.00",
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/434417-300-300?v=638775700424330000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/xiaomi-poco-x7-5g-512gb-12gb-ram-camara-principal-50mp-8mp-2mpx-frontal-20mpx-6-67--silver-100432197/p"
+  },
+  {
+    "titulo": "Celular Xiaomi POCO X7 Pro 5G 512GB, 12GB RAM, c\u00e1mara principal 50MP + 8MP, frontal 20MP, 6.67 , verde",
+    "precio": "S/2,269.00",
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/461821-300-300?v=638854321267870000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/xiaomi-poco-x7-pro-5g-512gb-12gb-ram-camara-principal-50mp-8mpx-frontal-20mpx-6-67--verde-100430689/p"
+  },
+  {
+    "titulo": "Celular Xiaomi POCO X7 Pro 5G 512GB, 12GB RAM, c\u00e1mara principal 50MP+8MP, frontal 20MP, 6.67 , amarillo",
+    "precio": "S/2,269.00",
+    "imagen": "https://coolboxpe.vtexassets.com/arquivos/ids/461837-300-300?v=638854332592770000&width=300&height=300&aspect=true",
+    "url": "https://www.coolbox.pe/xiaomi-poco-x7-pro-5g-512gb-12gb-ram-camara-principal-50mp-8mpx-frontal-20mpx-6-67--amarillo-100432446/p"
+  }
+]

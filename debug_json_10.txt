@@ -1,0 +1,293 @@
+Dominio consultado:  linio.falabella.com.pe
+Falló el request debido a 403 Client Error: Forbidden for url: https://linio.falabella.com.pe/linio-pe/search?Ntt=poco%20x7
+No hay más páginas.
+[
+  {
+    "titulo": "POCO X7 PRO 5G 512GB 12GB - NEGRO",
+    "precio": "N/A",
+    "imagen": "https://media.falabella.com.pe/falabellaPE/140713624_01/width=170,height=170,quality=70,format=webp,fit=pad",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140713623/POCO-X7-PRO-5G-512GB-12GB-NEGRO/140713624"
+  },
+  {
+    "titulo": "Celular POCO X7 Pro 5G 512GB 12GB - Negro",
+    "precio": "1,439",
+    "imagen": "https://media.falabella.com.pe/falabellaPE/143599692_01/width=170,height=170,quality=70,format=webp,fit=pad",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/143599691/Celular-Xiaomi-POCO-X7-Pro-5G-512GB-12GB-Negro/143599692"
+  },
+  {
+    "titulo": "Poco X7 Pro 5G 512gb 12gb Ram Dual Sim - NEGRO",
+    "precio": "1,399",
+    "imagen": "https://media.falabella.com.pe/falabellaPE/140679261_01/width=170,height=170,quality=70,format=webp,fit=pad",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140679260/Xiaomi-Poco-X7-Pro-5G-512gb-12gb-Ram-Dual-Sim-NEGRO/140679261"
+  },
+  {
+    "titulo": "POCO X7 PRO 5G 512GB 12GB - AMARILLO",
+    "precio": "1,489",
+    "imagen": "https://media.falabella.com.pe/falabellaPE/141023179_01/width=170,height=170,quality=70,format=webp,fit=pad",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/141023178/POCO-X7-PRO-5G-512GB-12GB-AMARILLO/141023179"
+  },
+  {
+    "titulo": "POCO X7 5G 512GB 12GB Silver",
+    "precio": "1,307",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140860446/Xiaomi-POCO-X7-5G-512GB-12GB-Silver/140860447"
+  },
+  {
+    "titulo": "Poco X7 Pro 5G 512gb 12gb Ram Dual Sim - AMARILLO",
+    "precio": "1,419",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140783195/Xiaomi-Poco-X7-Pro-5G-512gb-12gb-Ram-Dual-Sim-AMARILLO/140783196"
+  },
+  {
+    "titulo": "Poco X7 Pro 5G 512gb 12gb Ram Dual Sim - VERDE",
+    "precio": "1,399",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140678138/Xiaomi-Poco-X7-Pro-5G-512gb-12gb-Ram-Dual-Sim-VERDE/140678139"
+  },
+  {
+    "titulo": "POCO X7 256GB 8GB 50MP +8MP +2MP SILVER",
+    "precio": "1,179",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140813082/XIAOMI-POCO-X7-256GB-8GB-50MP-+8MP-+2MP-SILVER/140813083"
+  },
+  {
+    "titulo": "POCO X7 PRO 5G 512GB 12GB - VERDE",
+    "precio": "1,489",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/142914398/POCO-X7-PRO-5G-512GB-12GB-VERDE/142914399"
+  },
+  {
+    "titulo": "XIOAMI POCO X7 PRO 5G 12GB 512GB NUEVO NEGRO",
+    "precio": "1,419",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/118145138/XIOAMI-POCO-X7-PRO-5G-12GB-512GB-NUEVO-NEGRO/118145139"
+  },
+  {
+    "titulo": "POCO X7 PRO 512GB 12GB RAM 50MP + 8MP BLACK",
+    "precio": "1,449",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140347114/XIAOMI-POCO-X7-PRO-512GB-12GB-RAM-50MP-+-8MP-BLACK/140347116"
+  },
+  {
+    "titulo": "POCO X7 256GB 8GB 50MP +8MP +2MP GREEN",
+    "precio": "1,199",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140813066/XIAOMI-POCO-X7-256GB-8GB-50MP-+8MP-+2MP-GREEN/140813067"
+  },
+  {
+    "titulo": "XIOAMI POCO X7 PRO 5G 12GB 512GB NUEVO VERDE",
+    "precio": "1,419",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140947492/XIOAMI-POCO-X7-PRO-5G-12GB-512GB-NUEVO-VERDE/140947493"
+  },
+  {
+    "titulo": "POCO X7 PRO 5G 12GBRAM 512GB LIBRE NUEVO - NEGRO",
+    "precio": "1,419",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/120710629/XIAOMI-POCO-X7-PRO-5G-12GBRAM-512GB-LIBRE-NUEVO-NEGRO/120710631"
+  },
+  {
+    "titulo": "POCO X7 Pro 5G 512GB 12GB Amarillo",
+    "precio": "1,637",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/142198677/Xiaomi-POCO-X7-Pro-5G-512GB-12GB-Amarillo/142198678"
+  },
+  {
+    "titulo": "POCO X7 PRO 512GB 12GB RAM 50MP + 8MP GREEN",
+    "precio": "1,449",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140347176/XIAOMI-POCO-X7-PRO-512GB-12GB-RAM-50MP-+-8MP-GREEN/140347177"
+  },
+  {
+    "titulo": "XIOAMI POCO X7 PRO 5G 12GB 512GB NUEVO NEGRO",
+    "precio": "1,419",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140947455/XIOAMI-POCO-X7-PRO-5G-12GB-512GB-NUEVO-NEGRO/140947456"
+  },
+  {
+    "titulo": "Poco X7 Pro 5G 512gb 12gb Ram Negro + Audifonos de Regalo",
+    "precio": "1,399",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/144863411/Xiaomi-Poco-X7-Pro-5G-512gb-12gb-Ram-Negro-+-Audifonos-de-Regalo/144863412"
+  },
+  {
+    "titulo": "Celular POCO X7 5G 8GB 256GB Negro",
+    "precio": "949",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/144956949/Celular-XIAOMI-POCO-X7-5G-8GB-256GB-Negro/144956950"
+  },
+  {
+    "titulo": "POCO X7 PRO 12GB RAM 512GB NEGRO",
+    "precio": "1,419",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/143976467/POCO-X7-PRO-12GB-RAM-512GB-NEGRO/143976468"
+  },
+  {
+    "titulo": "POCO X7 PRO 12GB RAM 512GB - BLACK",
+    "precio": "1,499",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/143980610/XIAOMI-POCO-X7-PRO-12GB-RAM-512GB-BLACK/143980611"
+  },
+  {
+    "titulo": "Celular Poco X7 Pro Dual SIM 5G 512GB 12GB RAM 50mpx Amarillo",
+    "precio": "1,449",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/144496997/Celular-Xiaomi-Poco-X7-Pro-Dual-SIM-5G-512GB-12GB-RAM-50mpx-Amarillo/144496998"
+  },
+  {
+    "titulo": "CASE FUNDA PARA XIAOMI POCO X7 PRO - ANTISHOCK TRANSPARENTE",
+    "precio": "42",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/142858440/CASE-FUNDA-PARA-XIAOMI-POCO-X7-PRO-ANTISHOCK-TRANSPARENTE/142858441"
+  },
+  {
+    "titulo": "POCO X7 Pro 5G 512GB 12GB Negro",
+    "precio": "1,637",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140733454/Xiaomi-POCO-X7-Pro-5G-512GB-12GB-Negro/140733455"
+  },
+  {
+    "titulo": "POCO X7 PRO 512GB 12GB RAM 50MP + 8MP BLACK",
+    "precio": "1,449",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140346775/XIAOMI-POCO-X7-PRO-512GB-12GB-RAM-50MP-+-8MP-BLACK/140346776"
+  },
+  {
+    "titulo": "POCO X7 PRO 512GB 12GB RAM 50MP + 8MP YELLOW",
+    "precio": "1,449",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140347395/XIAOMI-POCO-X7-PRO-512GB-12GB-RAM-50MP-+-8MP-YELLOW/140347396"
+  },
+  {
+    "titulo": "POCO X7 PRO 512GB 12GB RAM 50MP + 8MP GREEN",
+    "precio": "1,449",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140347004/XIAOMI-POCO-X7-PRO-512GB-12GB-RAM-50MP-+-8MP-GREEN/140347005"
+  },
+  {
+    "titulo": "POCO X7 PRO 5G 12GB 512GB NUEVO LIBRE - NEGRO",
+    "precio": "1,419",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/119102571/XIAOMI-POCO-X7-PRO-5G-12GB-512GB-NUEVO-LIBRE-NEGRO/119102573"
+  },
+  {
+    "titulo": "Celular POCO X7 5G 12GB 512GB Verde",
+    "precio": "1,299",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140264985/Celular-XIAOMI-POCO-X7-5G-12GB-512GB-Verde/140264986"
+  },
+  {
+    "titulo": "POCO X7 Pro 5G 512GB 12GB Verde",
+    "precio": "1,637",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140733170/Xiaomi-POCO-X7-Pro-5G-512GB-12GB-Verde/140733171"
+  },
+  {
+    "titulo": "Celular POCO X7 5G 12GB 512GB Silver",
+    "precio": "1,299",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/143112491/Celular-XIAOMI-POCO-X7-5G-12GB-512GB-Silver/143112492"
+  },
+  {
+    "titulo": "POCO X7 PRO 12GB RAM 512GB VERDE",
+    "precio": "1,999",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/143712539/XIAOMI-POCO-X7-PRO-12GB-RAM-512GB-VERDE/143712540"
+  },
+  {
+    "titulo": "Celular POCO X7 5G 12GB 512GB Silver",
+    "precio": "1,299",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/143112589/Celular-XIAOMI-POCO-X7-5G-12GB-512GB-Silver/143112591"
+  },
+  {
+    "titulo": "Celular POCO X7 5G 12GB 512GB Verde",
+    "precio": "1,299",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/140264961/Celular-XIAOMI-POCO-X7-5G-12GB-512GB-Verde/140264962"
+  },
+  {
+    "titulo": "Poco X7 Pro 5G 512GB 12GB Dual Sim Negro",
+    "precio": "1,429",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/128304458/Poco-X7-Pro-5G-512GB-12GB-Dual-Sim-Negro/128304459"
+  },
+  {
+    "titulo": "POCO X7 PRO 5G 12RAM 512GB NEGRO",
+    "precio": "1,559",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/144216420/POCO-X7-PRO-5G-12RAM-512GB-NEGRO/144216421"
+  },
+  {
+    "titulo": "POCO X7 PRO 12GB RAM 512GB - YELLOW",
+    "precio": "1,499",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/143980662/XIAOMI-POCO-X7-PRO-12GB-RAM-512GB-YELLOW/143980663"
+  },
+  {
+    "titulo": "POCO X7 PRO 12GB RAM 512GB - GREEN",
+    "precio": "1,499",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/143980710/XIAOMI-POCO-X7-PRO-12GB-RAM-512GB-GREEN/143980711"
+  },
+  {
+    "titulo": "Celular POCO X7 5G 8GB 256GB Negro",
+    "precio": "949",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/144956955/Celular-XIAOMI-POCO-X7-5G-8GB-256GB-Negro/144956956"
+  },
+  {
+    "titulo": "Celular POCO X7 Pro 5G 12GB 512GB Negro",
+    "precio": "1,499",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/144957143/Celular-XIAOMI-POCO-X7-Pro-5G-12GB-512GB-Negro/144957144"
+  },
+  {
+    "titulo": "XIOAMI POCO X7 PRO 5G 12GB 512GB NUEVO NEGRO",
+    "precio": "1,419",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/144854134/XIOAMI-POCO-X7-PRO-5G-12GB-512GB-NUEVO-NEGRO/144854135"
+  },
+  {
+    "titulo": "Celular POCO X7 Pro 5G 12GB 512GB Negro",
+    "precio": "1,499",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/144957141/Celular-XIAOMI-POCO-X7-Pro-5G-12GB-512GB-Negro/144957142"
+  },
+  {
+    "titulo": "Celular Poco X7 Pro Dual SIM 5G 512GB 12GB RAM 50mpx Negro",
+    "precio": "1,449",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/144496258/Celular-Xiaomi-Poco-X7-Pro-Dual-SIM-5G-512GB-12GB-RAM-50mpx-Negro/144496260"
+  },
+  {
+    "titulo": "Poco X7 Pro 5G Dual SIM 512 GB y 12 GB de RAM - Amarillo",
+    "precio": "1,549",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/144172728/Xiaomi-Poco-X7-Pro-5G-Dual-SIM-512-GB-y-12-GB-de-RAM-Amarillo/144172729"
+  },
+  {
+    "titulo": "Poco X7 Pro 5G Dual SIM 512 GB y 12 GB de RAM - Negro",
+    "precio": "1,549",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/144172520/Xiaomi-Poco-X7-Pro-5G-Dual-SIM-512-GB-y-12-GB-de-RAM-Negro/144172521"
+  },
+  {
+    "titulo": "Poco X7 Pro 5G Dual SIM 512 GB y 12 GB de RAM - Negro",
+    "precio": "1,429",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/144168378/Xiaomi-Poco-X7-Pro-5G-Dual-SIM-512-GB-y-12-GB-de-RAM-Negro/144168379"
+  },
+  {
+    "titulo": "Poco X7 Pro 5G Dual SIM 512 GB y 12 GB de RAM - Amarillo",
+    "precio": "1,479",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/144138329/Xiaomi-Poco-X7-Pro-5G-Dual-SIM-512-GB-y-12-GB-de-RAM-Amarillo/144138330"
+  },
+  {
+    "titulo": "Celular POCO X7 5G 512GB 12GB RAM c\u00e1mara 50MP+8MP+2MP frontal 20MP 667 Negro",
+    "precio": "1,199",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/144981359/Celular-Xiaomi-POCO-X7-5G-512GB-12GB-RAM-camara-50MP+8MP+2MP-frontal-20MP-667-Negro/144981360"
+  }
+]

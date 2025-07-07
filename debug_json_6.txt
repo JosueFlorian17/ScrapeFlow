@@ -1,0 +1,2 @@
+Dominio consultado:  www.falabella.com.pe
+Falló el request debido a 403 Client Error: Forbidden for url: https://www.falabella.com.pe/falabella-pe/collection/poco-x7
