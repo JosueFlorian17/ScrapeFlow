@@ -160,7 +160,10 @@ int main() {
     // todosProductos es un vector que en cada elemento tendra el JSON output de cada scraper
     std::vector<std::string> todosProductos;
     // Recordar que a partir del pragma todo se divide a lo largo de los threads determinados
-
+    // Crear directorio para debug y errores
+    if (_mkdir("intermediate_jsons") == -1 && errno != EEXIST) {
+        std::cerr << "Error creando directorio intermediate_jsons" << std::endl;
+    }
     #pragma omp parallel for
     for (int i = 0; i < total_tareas; ++i) {
 
@@ -193,7 +196,7 @@ int main() {
         }
 
         // Guardo el JSON crudo obtenido del url asociado al proceso tid (no deberia ser mejor el asociado al url i??): sí!! ya lo cambié
-        std::ofstream debug("debug_json_" + std::to_string(i) + ".txt");
+        std::ofstream debug("intermediate_jsons/debug_json_" + std::to_string(i) + ".txt");
         debug << resultadoJson;
         debug.close();
 
@@ -280,7 +283,7 @@ int main() {
         //Si el try de nolhmann json falla, cualquier error se reporta y el output al file error_json_ con el id del proceso
         catch (const std::exception& e) {
             std::cerr << "[Url " <<i<< "] Error: " << e.what() << "\n";
-            std::ofstream error("error_json_" + std::to_string(i) + ".txt");
+            std::ofstream error("intermediate_jsons/error_json_" + std::to_string(i) + ".txt");
             error << resultadoJson;
             error.close();
         }

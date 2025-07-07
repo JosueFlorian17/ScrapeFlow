@@ -243,16 +243,16 @@ No hay más páginas.
     "url": "https://www.falabella.com.pe/falabella-pe/product/144957143/Celular-XIAOMI-POCO-X7-Pro-5G-12GB-512GB-Negro/144957144"
   },
   {
-    "titulo": "XIOAMI POCO X7 PRO 5G 12GB 512GB NUEVO NEGRO",
-    "precio": "1,419",
-    "imagen": "N/A",
-    "url": "https://www.falabella.com.pe/falabella-pe/product/144854134/XIOAMI-POCO-X7-PRO-5G-12GB-512GB-NUEVO-NEGRO/144854135"
-  },
-  {
     "titulo": "Celular POCO X7 Pro 5G 12GB 512GB Negro",
     "precio": "1,499",
     "imagen": "N/A",
     "url": "https://www.falabella.com.pe/falabella-pe/product/144957141/Celular-XIAOMI-POCO-X7-Pro-5G-12GB-512GB-Negro/144957142"
+  },
+  {
+    "titulo": "XIOAMI POCO X7 PRO 5G 12GB 512GB NUEVO NEGRO",
+    "precio": "1,419",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/144854134/XIOAMI-POCO-X7-PRO-5G-12GB-512GB-NUEVO-NEGRO/144854135"
   },
   {
     "titulo": "Celular Poco X7 Pro Dual SIM 5G 512GB 12GB RAM 50mpx Negro",
@@ -267,6 +267,12 @@ No hay más páginas.
     "url": "https://www.falabella.com.pe/falabella-pe/product/144172728/Xiaomi-Poco-X7-Pro-5G-Dual-SIM-512-GB-y-12-GB-de-RAM-Amarillo/144172729"
   },
   {
+    "titulo": "Poco X7 Pro 5G Dual SIM 512 GB y 12 GB de RAM - Amarillo",
+    "precio": "1,479",
+    "imagen": "N/A",
+    "url": "https://www.falabella.com.pe/falabella-pe/product/144138329/Xiaomi-Poco-X7-Pro-5G-Dual-SIM-512-GB-y-12-GB-de-RAM-Amarillo/144138330"
+  },
+  {
     "titulo": "Poco X7 Pro 5G Dual SIM 512 GB y 12 GB de RAM - Negro",
     "precio": "1,549",
     "imagen": "N/A",
@@ -277,12 +283,6 @@ No hay más páginas.
     "precio": "1,429",
     "imagen": "N/A",
     "url": "https://www.falabella.com.pe/falabella-pe/product/144168378/Xiaomi-Poco-X7-Pro-5G-Dual-SIM-512-GB-y-12-GB-de-RAM-Negro/144168379"
-  },
-  {
-    "titulo": "Poco X7 Pro 5G Dual SIM 512 GB y 12 GB de RAM - Amarillo",
-    "precio": "1,479",
-    "imagen": "N/A",
-    "url": "https://www.falabella.com.pe/falabella-pe/product/144138329/Xiaomi-Poco-X7-Pro-5G-Dual-SIM-512-GB-y-12-GB-de-RAM-Amarillo/144138330"
   },
   {
     "titulo": "Celular POCO X7 5G 512GB 12GB RAM c\u00e1mara 50MP+8MP+2MP frontal 20MP 667 Negro",
