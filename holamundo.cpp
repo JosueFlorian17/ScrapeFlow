@@ -179,6 +179,13 @@ int main() {
             continue;
         }
 
+        std::string raw = resultadoJson;
+        // Busca la posicion del primer '[' que inicia el arreglo JSON
+        size_t pos = raw.find('[');
+        if (pos != std::string::npos) {
+            raw = raw.substr(pos); //Si encontró un [, recorta raw empezando justo en ese índice
+        }
+
         // Guardo el JSON crudo obtenido del url asociado al proceso tid (no deberia ser mejor el asociado al url i??): sí!! ya lo cambié
         std::ofstream debug("debug_json_" + std::to_string(i) + ".txt");
         debug << resultadoJson;
@@ -186,7 +193,7 @@ int main() {
 
         try {
             // Proceso con nlohmann::json el JSON crudo 
-            json datos = json::parse(resultadoJson);
+            json datos = json::parse(raw);
             json listaProductos;
 
             // 1. Si viene un objeto con clave "results" y es un array
@@ -206,24 +213,25 @@ int main() {
                 std::cerr << "[Url " << i << "] JSON no iterable, saltando\n";
                 continue;
             }
+
             std::vector<std::string> productosLocal;
 
             for (auto& producto : listaProductos) {
                 // Manejo seguro de campos nulos
                 std::string titulo = "Producto sin nombre";
-                if (producto.contains("title") && !producto["title"].is_null()) {
-                    titulo = producto["title"].get<std::string>();
+                if (producto.contains("titulo") && !producto["titulo"].is_null()) {
+                    titulo = producto["titulo"].get<std::string>();
                 }
 
                 double precio = 0.0;
-                if (producto.contains("price") && !producto["price"].is_null()) {
-                    if (producto["price"].is_number()) {
-                        precio = producto["price"].get<double>();
+                if (producto.contains("precio") && !producto["precio"].is_null()) {
+                    if (producto["precio"].is_number()) {
+                        precio = producto["precio"].get<double>();
                     }
                     // Manejar precios como strings
-                    else if (producto["price"].is_string()) {
+                    else if (producto["precio"].is_string()) {
                         try {
-                            precio = std::stod(producto["price"].get<std::string>());
+                            precio = std::stod(producto["precio"].get<std::string>());
                         } catch (...) {
                             precio = 0.0;
                         }
@@ -231,13 +239,13 @@ int main() {
                 }
 
                 std::string imagen = "";
-                if (producto.contains("image_url") && !producto["image_url"].is_null()) {
-                    imagen = producto["image_url"].get<std::string>();
+                if (producto.contains("imagen") && !producto["imagen"].is_null()) {
+                    imagen = producto["imagen"].get<std::string>();
                 }
 
                 std::string urlProducto = "";
-                if (producto.contains("product_url") && !producto["product_url"].is_null()) {
-                    urlProducto = producto["product_url"].get<std::string>();
+                if (producto.contains("url") && !producto["url"].is_null()) {
+                    urlProducto = producto["url"].get<std::string>();
                 }
 
                 int idx=globalIndex.fetch_add(1, std::memory_order_relaxed);
