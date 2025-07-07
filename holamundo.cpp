@@ -101,22 +101,57 @@ std::string ejecutarScrapper(const std::string& url) {
     //Retorna el json string de forma {"success":true,"results":[ … ]} que produce el scraper python
     return resultado;
 }
+// Helper function 4: Lee un archivo de texto, obtiene las URLs que contienen "http" y las retorna en un vector de strings
+// Si una URL contiene un dominio excluido, se ignora esa URL (porque se ejecuta su scrapper aparte)
+std::vector<std::string> obtenerURLsDesdeArchivo(const std::string& archivo, const std::vector<std::string>& dominios_excluidos) {
+    std::vector<std::string> urls;
+    std::ifstream file(archivo);
+    std::string line;
+
+    while (std::getline(file, line)) {
+        if (line.find("http") != std::string::npos) {
+            size_t pos = line.find("http");
+            std::string url = line.substr(pos);
+            for (const std::string& dominio : dominios_excluidos) {
+                if (url.find(dominio) != std::string::npos) {
+                    url = "";
+                    break;
+                }
+            }
+            if (!url.empty()) urls.push_back(url);
+        }
+    }
+    return urls;
+}
 
 int main() {
     //Le indica a OpenMP que cree máximo 2 subprocesos
-    int num_pro=2;
+    int num_pro=4;
     omp_set_num_threads(num_pro);
-    std::vector<std::string> urls = {
-        "https://www.plazavea.com.pe/tecnologia/computo/laptops",
-        "https://simple.ripley.com.pe/tecnologia/computacion/laptops"
+    
+    const std::string base_dir = "scrapers/";
+    std::vector<std::string> scripts = {
+        base_dir + "coolbox.py",
+        base_dir + "efe.py",
+        base_dir + "lacuracao.py",
+        base_dir + "plazavea.py",
+        base_dir + "ripley.py",
     };
+
+    std::vector<std::string> dominios_excluidos = {
+        "coolbox.pe", "efe.com.pe", "lacuracao.pe", "plazavea.com.pe","simple.ripley.com.pe","ripley.com.pe"
+    };
+
+    std::vector<std::string> urls = obtenerURLsDesdeArchivo("urls.txt", dominios_excluidos);
+
+    int total_tareas = scripts.size() + urls.size();
 
     // todosProductos es un vector que en cada elemento tendra el JSON output de cada scraper
     std::vector<std::string> todosProductos;
     // Recordar que a partir del pragma todo se divide a lo largo de los threads determinados
 
     #pragma omp parallel for
-    for (int i = 0; i < static_cast<int>(urls.size()); ++i) {
+    for (int i = 0; i < total_tareas; ++i) {
 
         //Remember: se castea explicitamente se size_t (unsigned) a int (signed) para qeu la comparacion sea exacta en tipo
 

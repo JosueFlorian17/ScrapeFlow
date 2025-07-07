@@ -15,8 +15,19 @@ import io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
-# ✏️ Cambia esta URL si lo deseas
-url = "https://www.plazavea.com.pe/laptops/c/BI_10429"
+# Leer URL desde urls.txt
+nombre_tienda = "Plaza Vea"
+url = None
+
+with open("urls.txt", "r", encoding="utf-8") as f:
+    for linea in f:
+        if linea.startswith(f"{nombre_tienda}:"):
+            url = linea.split(":", 1)[1].strip()
+            break
+
+if not url:
+    print(f"No se encontró la URL para {nombre_tienda} en urls.txt")
+    exit()
 
 def init_driver():
     options = Options()
