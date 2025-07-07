@@ -9,6 +9,9 @@
 #include <Windows.h>                 //to change, específico de Windows
 #include <direct.h>       // _mkdir
 #include <cstdlib>
+#include <string>
+#include <set>
+#include <cerrno>
 
 using json = nlohmann::json;
 
@@ -61,14 +64,13 @@ std::string generarProductoJSON(int index, const std::string& titulo,
     return producto.str();
 }
 
-std::vector<std::map<std::string, std::string>> ejecutarScraper(const std::string& script) {
+std::string ejecutarScraper(const std::string& script) {
     std::string comando = "python3 " + script;
-    FILE* pipe = popen(comando.c_str(), "r");
-    std::vector<std::map<std::string, std::string>> productos;
+    FILE* pipe = _popen(comando.c_str(), "r");
 
     if (!pipe) {
         std::cerr << "❌ Error al ejecutar: " << script << std::endl;
-        return productos;
+        return "";
     }
 
     char buffer[2048];
@@ -77,20 +79,19 @@ std::vector<std::map<std::string, std::string>> ejecutarScraper(const std::strin
     while (fgets(buffer, sizeof(buffer), pipe)) {
         salidaTotal += buffer;
     }
-    pclose(pipe);
+    _pclose(pipe);
 
-    return parsearJSONdePython(salidaTotal);
+    return salidaTotal;
 }
 
 
-std::vector<std::map<std::string, std::string>> ejecutarMainScraperConURL(const std::string& url) {
-    std::vector<std::map<std::string, std::string>> productos;
+std::string ejecutarMainScraperConURL(const std::string& url) {
     std::string comando = "python3 scrapers/main_scraper.py \"" + url + "\"";
-    FILE* pipe = popen(comando.c_str(), "r");
+    FILE* pipe = _popen(comando.c_str(), "r");
 
     if (!pipe) {
         std::cerr << "❌ Error al ejecutar main_scraper.py con URL: " << url << std::endl;
-        return productos;
+        return "";
     }
 
     char buffer[2048];
@@ -99,17 +100,15 @@ std::vector<std::map<std::string, std::string>> ejecutarMainScraperConURL(const 
     while (fgets(buffer, sizeof(buffer), pipe)) {
         salidaTotal += buffer;
     }
-    pclose(pipe);
+    _pclose(pipe);
 
-    return parsearJSONdePython(salidaTotal);
+    return salidaTotal;
 }
-
-
 
 
 // Helper function 5: Lee un archivo de texto, obtiene las URLs que contienen "http" y las retorna en un vector de strings
 // Si una URL contiene un dominio excluido, se ignora esa URL (porque se ejecuta su scrapper aparte)
-std::vector<std::string> obtenerURLsDesdeArchivo(const std::string& archivo, const std::vector<std::string>& dominios_excluidos) {
+std::vector<std::string> obtenerURLsDesdeArchivo(const std::string& archivo, const std::set<std::string>& dominios_excluidos) {
     std::vector<std::string> urls;
     std::ifstream file(archivo);
     std::string line;
@@ -144,7 +143,7 @@ int main() {
         base_dir + "ripley.py",
     };
 
-    std::vector<std::string> dominios_excluidos = {
+    std::set<std::string> dominios_excluidos = {
         "coolbox.pe", "efe.com.pe", "lacuracao.pe", "plazavea.com.pe","simple.ripley.com.pe","ripley.com.pe"
     };
 
@@ -163,7 +162,7 @@ int main() {
 
         //Identifico el thread con tid
         int tid = omp_get_thread_num();
-        std::cout << "[Hilo " << tid << "] Procesando URL: " << urls[i] << std::endl;
+        std::string resultadoJson;
 
         //La url i se pasa a la funcion helper ejecutarScrapper, que devuelve el json de ese scraper python
         if (i < static_cast<int>(scripts.size())) {
