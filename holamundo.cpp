@@ -50,6 +50,12 @@ std::string generarProductoJSON(int index, const std::string& titulo,
     std::string urlEscapada = escaparComillas(url);
     std::string imagenFinal = imagenEscapada.empty() ? "./img/abrigos/01.jpg" : imagenEscapada;
     double precioFinal = (precio <= 0) ? 1234 : precio;
+    std::string precioCampo;
+    if (precio < 0.0) {
+        precioCampo = "\"N/A\"";
+    } else {
+        precioCampo = std::to_string(precio);
+    }
     producto << "    {\n"
              << "        \"id\": \"web-" << index << "\",\n"
              << "        \"titulo\": \"" << tituloEscapado << "\",\n"
@@ -58,7 +64,7 @@ std::string generarProductoJSON(int index, const std::string& titulo,
              << "            \"nombre\": \"Web\",\n"
              << "            \"id\": \"web\"\n"
              << "        },\n"
-             << "        \"precio\": " << precioFinal << ",\n"
+             << "        \"precio\": " << precioCampo << ",\n"
              << "        \"url\": \"" << urlEscapada << "\"\n" 
              << "    }";
     return producto.str();
@@ -180,8 +186,8 @@ int main() {
         }
 
         std::string raw = resultadoJson;
-        // Busca la posicion del primer '[' que inicia el arreglo JSON
-        size_t pos = raw.find('[');
+        // Busca la posicion del primer '[' O'{' que inicia el arreglo JSON
+        size_t pos = raw.find_first_of("{[");
         if (pos != std::string::npos) {
             raw = raw.substr(pos); //Si encontró un [, recorta raw empezando justo en ese índice
         }
@@ -222,22 +228,28 @@ int main() {
                 if (producto.contains("titulo") && !producto["titulo"].is_null()) {
                     titulo = producto["titulo"].get<std::string>();
                 }
+                double precio = -1.0;  // valor por defecto si no hay precio
 
-                double precio = 0.0;
                 if (producto.contains("precio") && !producto["precio"].is_null()) {
                     if (producto["precio"].is_number()) {
+                        // viene como número
                         precio = producto["precio"].get<double>();
                     }
-                    // Manejar precios como strings
                     else if (producto["precio"].is_string()) {
-                        try {
-                            precio = std::stod(producto["precio"].get<std::string>());
-                        } catch (...) {
-                            precio = 0.0;
+                        std::string precioStr = producto["precio"].get<std::string>();
+                        if (precioStr != "N/A") {
+                            // unificar separador decimal
+                            std::replace(precioStr.begin(), precioStr.end(), ',', '.');
+                            try {
+                                precio = std::stod(precioStr);
+                            } catch (...) {
+                                // si falla la conversión, dejamos precio = -1.0
+                            }
                         }
+                        // si es "N/A", dejamos precio = -1.0
                     }
                 }
-
+      
                 std::string imagen = "";
                 if (producto.contains("imagen") && !producto["imagen"].is_null()) {
                     imagen = producto["imagen"].get<std::string>();
